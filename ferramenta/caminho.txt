@@ -1,0 +1,1 @@
+https://dotnet.microsoft.com/download/dotnet-core/3.0?WT.mc_id=dotnetconf2019-c9-niner
