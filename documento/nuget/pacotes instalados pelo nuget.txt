@@ -1,0 +1,3 @@
+Pomelo.EntityFrameworkCore.Mysql
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.EntityFrameworkCore.Proxies
