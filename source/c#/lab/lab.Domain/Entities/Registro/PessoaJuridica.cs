@@ -14,7 +14,7 @@ namespace lab.Domain.Entities.Registro
         public string Complemento { get; set; }
         public string Bairro { get; set; }
         public string CEP { get; set; }
-        public Municipio Municipio { get; set; }
+        //public Municipio Municipio { get; set; }
         public string Telefone { get; set; }
         public string Celular { get; set; }
         public string Email { get; set; }
@@ -23,10 +23,11 @@ namespace lab.Domain.Entities.Registro
         public string CNAE { get; set; }
         public string InscricaoMunicipal { get; set; }
         public string NrSuframa { get; set; }
-        public string NaturezaJuridica { get; set; }
+        public int NaturezaJuridica { get; set; }
         public string NomeContato { get; set; }
         public string WebSite { get; set; }
         public ContribuicaoEnum DmContribuicao { get; set; }
         public int PessoaFisicaId { get; set; }
+        public virtual PessoaFisica PessoaFisica { get; set; }
     }
 }

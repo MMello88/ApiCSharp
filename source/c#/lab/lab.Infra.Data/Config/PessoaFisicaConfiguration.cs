@@ -3,8 +3,6 @@ using lab.Domain.Entities.Registro;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace lab.Infra.Data.Config
 {
@@ -18,7 +16,8 @@ namespace lab.Infra.Data.Config
             builder.Property(pf => pf.DataNascimento).IsRequired();
             builder.Property(pf => pf.UrlFoto).HasMaxLength(150);
             builder.Property(pf => pf.Ativo).HasDefaultValue(AtivoEnum.Ativo);
-            builder.Property(pf => pf.Criacao).HasDefaultValue(DateTime.Now);
+            builder.Property(pf => pf.Criacao).IsRequired();
+            builder.HasMany(pf => pf.PessoasJuridica).WithOne(pj => pj.PessoaFisica); // 1 para muitos => uma pf para muitos pj
         }
     }
 }

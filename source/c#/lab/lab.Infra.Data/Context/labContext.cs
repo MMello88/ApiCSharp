@@ -16,6 +16,7 @@ namespace lab.Infra.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new PessoaFisicaConfiguration());
+            modelBuilder.ApplyConfiguration(new PessoaJuridicaConfiguration());
             base.OnModelCreating(modelBuilder);
         }
 

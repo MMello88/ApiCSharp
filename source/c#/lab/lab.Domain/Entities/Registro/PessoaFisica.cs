@@ -1,5 +1,6 @@
 ﻿using lab.Domain.Entities.Enums;
 using System;
+using System.Collections.Generic;
 
 namespace lab.Domain.Entities.Registro
 {
@@ -12,5 +13,6 @@ namespace lab.Domain.Entities.Registro
         public string UrlFoto { get; set; }
         public AtivoEnum Ativo { get; set; }
         public DateTime Criacao { get; set; }
+        public virtual ICollection<PessoaJuridica> PessoasJuridica { get; set; }
     }
 }
