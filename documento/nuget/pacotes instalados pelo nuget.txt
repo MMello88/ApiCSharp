@@ -1,3 +1,8 @@
+lab.Domain
+Microsoft.EntityFrameworkCore.Design
+ 
+lab.Infra.Data
 Pomelo.EntityFrameworkCore.Mysql
 Microsoft.EntityFrameworkCore.Tools
 Microsoft.EntityFrameworkCore.Proxies
+Microsoft.Extensions.Configuration.Json
