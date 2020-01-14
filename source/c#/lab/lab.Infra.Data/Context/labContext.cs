@@ -1,4 +1,5 @@
 ﻿using lab.Domain.Entities.Registro;
+using lab.Domain.Entities.Cadastro.Auxiliar;
 using lab.Infra.Data.Config;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,6 +18,9 @@ namespace lab.Infra.Data.Context
         {
             modelBuilder.ApplyConfiguration(new PessoaFisicaConfiguration());
             modelBuilder.ApplyConfiguration(new PessoaJuridicaConfiguration());
+            modelBuilder.ApplyConfiguration(new MunicipioConfiguration());
+            modelBuilder.ApplyConfiguration(new PaisConfiguration());
+            
             base.OnModelCreating(modelBuilder);
         }
 
