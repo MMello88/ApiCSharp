@@ -7,7 +7,10 @@ namespace lab.Infra.Data.Context
 {
     public class labContext : DbContext
     {
-        DbSet<PessoaFisica> PessoaFisicas { get; set; }
+        DbSet<PessoaFisica> PessoasFisica { get; set; }
+        DbSet<PessoaJuridica> PessoasJuridica { get; set; }
+        DbSet<Municipio> Municipios { get; set; }
+        DbSet<Pais> Paises { get; set; }
 
         public labContext(DbContextOptions options) : base(options)
         {

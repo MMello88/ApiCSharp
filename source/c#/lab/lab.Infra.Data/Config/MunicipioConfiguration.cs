@@ -9,10 +9,11 @@ namespace lab.Infra.Data.Config
     {
         public void Configure(EntityTypeBuilder<Municipio> builder)
         {
-            builder.HasKey(pf => pf.Id);
-            builder.Property(pf => pf.Nome).HasMaxLength(150).IsRequired();
-            builder.Property(pf => pf.CdMunicipio).HasMaxLength(7).IsRequired();
-            builder.Property(pf => pf.Uf).HasMaxLength(2).IsRequired();
+            builder.HasKey(m => m.Id);
+            builder.Property(m => m.Nome).HasMaxLength(150).IsRequired();
+            builder.Property(m => m.CdMunicipio).HasMaxLength(7).IsRequired();
+            builder.Property(m => m.Uf).HasMaxLength(2).IsRequired();
+            builder.HasMany(m => m.PessoasJuridica).WithOne(pj => pj.Municipio);
         }
     }
 }
