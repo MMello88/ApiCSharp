@@ -15,7 +15,7 @@ namespace lab.Domain.Entities.Registro
         public string Bairro { get; set; }
         public string CEP { get; set; }
         public int MunicipioId { get; set; }
-        public Municipio Municipio { get; set; }
+        public virtual Municipio Municipio { get; set; }
         public string Telefone { get; set; }
         public string Celular { get; set; }
         public string Email { get; set; }
