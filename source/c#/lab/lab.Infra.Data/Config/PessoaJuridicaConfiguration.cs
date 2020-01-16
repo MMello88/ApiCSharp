@@ -18,7 +18,6 @@ namespace lab.Infra.Data.Config
             builder.Property(pj => pj.Numero).HasMaxLength(10).IsRequired();
             builder.Property(pj => pj.Complemento).HasMaxLength(100);
             builder.Property(pj => pj.Bairro).HasMaxLength(150).IsRequired();
-            builder.Property(pj => pj.Municipio).IsRequired();
             builder.Property(pj => pj.CEP).HasMaxLength(10).IsRequired();
             builder.Property(pj => pj.Telefone).HasMaxLength(15);
             builder.Property(pj => pj.Celular).HasMaxLength(15).IsRequired();

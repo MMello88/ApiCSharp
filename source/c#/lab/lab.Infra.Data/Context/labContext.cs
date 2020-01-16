@@ -19,11 +19,10 @@ namespace lab.Infra.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new PaisConfiguration());
+            modelBuilder.ApplyConfiguration(new MunicipioConfiguration());
             modelBuilder.ApplyConfiguration(new PessoaFisicaConfiguration());
             modelBuilder.ApplyConfiguration(new PessoaJuridicaConfiguration());
-            modelBuilder.ApplyConfiguration(new MunicipioConfiguration());
-            modelBuilder.ApplyConfiguration(new PaisConfiguration());
-            
             base.OnModelCreating(modelBuilder);
         }
 

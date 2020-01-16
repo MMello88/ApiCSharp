@@ -9,8 +9,8 @@ using lab.Infra.Data.Context;
 namespace lab.Infra.Data.Migrations
 {
     [DbContext(typeof(labContext))]
-    [Migration("20200114165808_AdicionandoPessoaJuridica")]
-    partial class AdicionandoPessoaJuridica
+    [Migration("20200116163754_addtabelasiniciais")]
+    partial class addtabelasiniciais
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -18,6 +18,53 @@ namespace lab.Infra.Data.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
+
+            modelBuilder.Entity("lab.Domain.Entities.Cadastro.Auxiliar.Municipio", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("CdMunicipio")
+                        .IsRequired()
+                        .HasColumnType("varchar(7) CHARACTER SET utf8mb4")
+                        .HasMaxLength(7);
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("varchar(150) CHARACTER SET utf8mb4")
+                        .HasMaxLength(150);
+
+                    b.Property<string>("Uf")
+                        .IsRequired()
+                        .HasColumnType("varchar(2) CHARACTER SET utf8mb4")
+                        .HasMaxLength(2);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Municipios");
+                });
+
+            modelBuilder.Entity("lab.Domain.Entities.Cadastro.Auxiliar.Pais", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("CdPais")
+                        .IsRequired()
+                        .HasColumnType("varchar(5) CHARACTER SET utf8mb4")
+                        .HasMaxLength(5);
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("varchar(150) CHARACTER SET utf8mb4")
+                        .HasMaxLength(150);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Paises");
+                });
 
             modelBuilder.Entity("lab.Domain.Entities.Registro.PessoaFisica", b =>
                 {
@@ -52,7 +99,7 @@ namespace lab.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("PessoaFisicas");
+                    b.ToTable("PessoasFisica");
                 });
 
             modelBuilder.Entity("lab.Domain.Entities.Registro.PessoaJuridica", b =>
@@ -117,6 +164,9 @@ namespace lab.Infra.Data.Migrations
                         .HasColumnType("int")
                         .HasDefaultValue(0);
 
+                    b.Property<int>("MunicipioId")
+                        .HasColumnType("int");
+
                     b.Property<int>("NaturezaJuridica")
                         .HasColumnType("int");
 
@@ -156,13 +206,21 @@ namespace lab.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("MunicipioId");
+
                     b.HasIndex("PessoaFisicaId");
 
-                    b.ToTable("PessoaJuridica");
+                    b.ToTable("PessoasJuridica");
                 });
 
             modelBuilder.Entity("lab.Domain.Entities.Registro.PessoaJuridica", b =>
                 {
+                    b.HasOne("lab.Domain.Entities.Cadastro.Auxiliar.Municipio", "Municipio")
+                        .WithMany("PessoasJuridica")
+                        .HasForeignKey("MunicipioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("lab.Domain.Entities.Registro.PessoaFisica", "PessoaFisica")
                         .WithMany("PessoasJuridica")
                         .HasForeignKey("PessoaFisicaId")
