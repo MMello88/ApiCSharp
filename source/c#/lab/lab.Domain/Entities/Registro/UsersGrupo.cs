@@ -1,9 +1,13 @@
-﻿namespace lab.Domain.Entities.Registro
+﻿using lab.Domain.Entities.Enums;
+
+namespace lab.Domain.Entities.Registro
 {
-    class UsersGrupo
+    public class UsersGrupo
     {
-        public int Id { get; private set; }
         public int GrupoUserId { get; set; }
+        public virtual GrupoUser GrupoUser { get; set; }
         public int UserId { get; set; }
+        public virtual User User { get; set; }
+        public AtivoEnum Ativo { get; set; }
     }
 }

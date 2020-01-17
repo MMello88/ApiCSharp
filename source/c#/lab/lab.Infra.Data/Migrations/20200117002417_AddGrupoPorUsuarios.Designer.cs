@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using lab.Infra.Data.Context;
 
 namespace lab.Infra.Data.Migrations
 {
     [DbContext(typeof(labContext))]
-    partial class labContextModelSnapshot : ModelSnapshot
+    [Migration("20200117002417_AddGrupoPorUsuarios")]
+    partial class AddGrupoPorUsuarios
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

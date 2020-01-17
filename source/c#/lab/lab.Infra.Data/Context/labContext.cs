@@ -11,6 +11,9 @@ namespace lab.Infra.Data.Context
         DbSet<PessoaJuridica> PessoasJuridica { get; set; }
         DbSet<Municipio> Municipios { get; set; }
         DbSet<Pais> Paises { get; set; }
+        DbSet<User> Users { get; set; }
+        DbSet<GrupoUser> GrupoUsers { get; set; }
+        DbSet<UsersGrupo> UsersGrupo { get; set; }
 
         public labContext(DbContextOptions options) : base(options)
         {
@@ -23,6 +26,9 @@ namespace lab.Infra.Data.Context
             modelBuilder.ApplyConfiguration(new MunicipioConfiguration());
             modelBuilder.ApplyConfiguration(new PessoaFisicaConfiguration());
             modelBuilder.ApplyConfiguration(new PessoaJuridicaConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new GrupoUserConfiguration());
+            modelBuilder.ApplyConfiguration(new UsersGrupoConfiguration());
             base.OnModelCreating(modelBuilder);
         }
 

@@ -66,3 +66,37 @@ CREATE INDEX `IX_PessoasJuridica_PessoaFisicaId` ON `PessoasJuridica` (`PessoaFi
 INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
 VALUES ('20200116163754_addtabelasiniciais', '3.1.0');
 
+CREATE TABLE `GrupoUsers` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Nome` varchar(350) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK_GrupoUsers` PRIMARY KEY (`Id`)
+);
+
+CREATE TABLE `Users` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Nome` varchar(350) CHARACTER SET utf8mb4 NOT NULL,
+    `Sobrenome` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `DataNascimento` datetime(6) NOT NULL,
+    `UrlFoto` longtext CHARACTER SET utf8mb4 NULL,
+    `Ativo` int NOT NULL DEFAULT 1,
+    `Criacao` datetime(6) NOT NULL,
+    `Usuario` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `Email` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `Senha` varchar(64) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK_Users` PRIMARY KEY (`Id`)
+);
+
+CREATE TABLE `UsersGrupo` (
+    `GrupoUserId` int NOT NULL,
+    `UserId` int NOT NULL,
+    `Ativo` int NOT NULL DEFAULT 1,
+    CONSTRAINT `PK_UsersGrupo` PRIMARY KEY (`UserId`, `GrupoUserId`),
+    CONSTRAINT `FK_UsersGrupo_GrupoUsers_GrupoUserId` FOREIGN KEY (`GrupoUserId`) REFERENCES `GrupoUsers` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_UsersGrupo_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+);
+
+CREATE INDEX `IX_UsersGrupo_GrupoUserId` ON `UsersGrupo` (`GrupoUserId`);
+
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20200117002417_AddGrupoPorUsuarios', '3.1.0');
+
