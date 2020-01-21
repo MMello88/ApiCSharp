@@ -11,5 +11,6 @@ namespace lab.Domain.Entities.Cadastro.Referencias
         public string versao { get; set; }
         public string leiaout { get; set; }
         public DateTime periodo { get; set; }
+        public virtual ICollection<reg0000> regs0000 { get; set; }
     }
 }
