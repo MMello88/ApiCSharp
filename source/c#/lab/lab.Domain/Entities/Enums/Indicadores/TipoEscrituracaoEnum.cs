@@ -1,4 +1,4 @@
-﻿namespace lab.Domain.Entities.Enums
+﻿namespace lab.Domain.Entities.Enums.Indicadores
 {
     public enum TipoEscrituracaoEnum
     {

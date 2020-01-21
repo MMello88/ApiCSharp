@@ -1,4 +1,5 @@
-﻿using lab.Domain.Entities.Registro;
+﻿using lab.Domain.Entities.Bloco.b0;
+using lab.Domain.Entities.Registro;
 using System.Collections.Generic;
 
 namespace lab.Domain.Entities.Cadastro.Auxiliar
@@ -10,6 +11,6 @@ namespace lab.Domain.Entities.Cadastro.Auxiliar
         public string Nome { get; set; }
         public string Uf { get; set; }
         public virtual ICollection<PessoaJuridica> PessoasJuridica { get; set; }
-        public virtual ICollection<reg0000> regs0000 { get; set; }
+        public virtual ICollection<Reg0000> Regs0000 { get; set; }
     }
 }

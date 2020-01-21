@@ -1,5 +1,4 @@
-﻿using lab.Domain.Entities.Cadastro.Auxiliar;
-using lab.Domain.Entities.Enums;
+﻿using lab.Domain.Entities.Enums;
 using lab.Domain.Entities.Registro;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;

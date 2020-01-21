@@ -13,6 +13,8 @@
     <Compile Remove="Migrations\20200116161426_AdicionandoRelacionamentoPJMunicio.Designer.cs" />
     <Compile Remove="Migrations\20200116162715_AdicionandoRelacionamentoPJMunicio.cs" />
     <Compile Remove="Migrations\20200116162715_AdicionandoRelacionamentoPJMunicio.Designer.cs" />
+    <Compile Remove="Migrations\20200121173827_AdicionandoRegitros0000.cs" />
+    <Compile Remove="Migrations\20200121173827_AdicionandoRegitros0000.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

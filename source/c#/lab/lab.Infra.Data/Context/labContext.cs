@@ -2,6 +2,10 @@
 using lab.Domain.Entities.Cadastro.Auxiliar;
 using lab.Infra.Data.Config;
 using Microsoft.EntityFrameworkCore;
+using lab.Infra.Data.Config.Referencias;
+using lab.Domain.Entities.Cadastro.Referencias;
+using lab.Infra.Data.Config.Bloco0;
+using lab.Domain.Entities.Bloco.b0;
 
 namespace lab.Infra.Data.Context
 {
@@ -14,6 +18,8 @@ namespace lab.Infra.Data.Context
         DbSet<User> Users { get; set; }
         DbSet<GrupoUser> GrupoUsers { get; set; }
         DbSet<UsersGrupo> UsersGrupo { get; set; }
+        DbSet<Ref311> Ref311 { get; set; }
+        DbSet<Reg0000> Regs0000 { get; set; }
 
         public labContext(DbContextOptions options) : base(options)
         {
@@ -29,6 +35,8 @@ namespace lab.Infra.Data.Context
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new GrupoUserConfiguration());
             modelBuilder.ApplyConfiguration(new UsersGrupoConfiguration());
+            modelBuilder.ApplyConfiguration(new Ref311Configuration());
+            modelBuilder.ApplyConfiguration(new Reg0000Configuration());
             base.OnModelCreating(modelBuilder);
         }
 

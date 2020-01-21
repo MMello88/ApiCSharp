@@ -1,4 +1,4 @@
-﻿eCREATE TABLE IF NOT EXISTS `__EFMigrationsHistory` (
+﻿CREATE TABLE IF NOT EXISTS `__EFMigrationsHistory` (
     `MigrationId` varchar(95) NOT NULL,
     `ProductVersion` varchar(32) NOT NULL,
     CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
@@ -99,4 +99,40 @@ CREATE INDEX `IX_UsersGrupo_GrupoUserId` ON `UsersGrupo` (`GrupoUserId`);
 
 INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
 VALUES ('20200117002417_AddGrupoPorUsuarios', '3.1.0');
+
+CREATE TABLE `Ref311` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Codigo` varchar(5) CHARACTER SET utf8mb4 NOT NULL,
+    `Versao` varchar(5) CHARACTER SET utf8mb4 NOT NULL,
+    `Leiaout` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `Periodo` datetime(6) NOT NULL,
+    CONSTRAINT `PK_Ref311` PRIMARY KEY (`Id`)
+);
+
+CREATE TABLE `Regs0000` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `REG` varchar(4) CHARACTER SET utf8mb4 NOT NULL DEFAULT '0000',
+    `Ref311Id` int NOT NULL,
+    `TIPO_ESCRIT` int NOT NULL,
+    `IND_SIT_ESP` int NOT NULL,
+    `NUM_REC_ANTERIOR` varchar(41) CHARACTER SET utf8mb4 NULL,
+    `DT_INI` datetime(6) NOT NULL,
+    `DT_FIN` datetime(6) NOT NULL,
+    `NOME` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `CNPJ` int NOT NULL,
+    `MunicipioId` int NOT NULL,
+    `SUFRAMA` varchar(9) CHARACTER SET utf8mb4 NULL,
+    `IND_NAT_PJ` int NOT NULL,
+    `IND_ATIV` int NOT NULL,
+    CONSTRAINT `PK_Regs0000` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Regs0000_Municipios_MunicipioId` FOREIGN KEY (`MunicipioId`) REFERENCES `Municipios` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_Regs0000_Ref311_Ref311Id` FOREIGN KEY (`Ref311Id`) REFERENCES `Ref311` (`Id`) ON DELETE CASCADE
+);
+
+CREATE INDEX `IX_Regs0000_MunicipioId` ON `Regs0000` (`MunicipioId`);
+
+CREATE INDEX `IX_Regs0000_Ref311Id` ON `Regs0000` (`Ref311Id`);
+
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20200121174224_AdicionandoRegitro0000', '3.1.0');
 
