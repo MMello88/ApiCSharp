@@ -1,4 +1,5 @@
-﻿using lab.Domain.Entities.Cadastro.Auxiliar;
+﻿using lab.Domain.Entities.Bloco.b0;
+using lab.Domain.Entities.Cadastro.Auxiliar;
 using lab.Domain.Entities.Enums;
 
 namespace lab.Domain.Entities.Registro
@@ -30,5 +31,6 @@ namespace lab.Domain.Entities.Registro
         public virtual Municipio Municipio { get; set; }
         public int PessoaFisicaId { get; set; }
         public virtual PessoaFisica PessoaFisica { get; set; }
+        public virtual Reg0000EFDC Regs0000EFDC { get; set; }
     }
 }

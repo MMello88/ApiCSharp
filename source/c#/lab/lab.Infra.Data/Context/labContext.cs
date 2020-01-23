@@ -19,7 +19,8 @@ namespace lab.Infra.Data.Context
         DbSet<GrupoUser> GrupoUsers { get; set; }
         DbSet<UsersGrupo> UsersGrupo { get; set; }
         DbSet<Ref311> Ref311 { get; set; }
-        DbSet<Reg0000> Regs0000 { get; set; }
+        DbSet<Reg0000EFDC> Regs0000EFDC { get; set; }
+        
 
         public labContext(DbContextOptions options) : base(options)
         {
@@ -30,13 +31,13 @@ namespace lab.Infra.Data.Context
         {
             modelBuilder.ApplyConfiguration(new PaisConfiguration());
             modelBuilder.ApplyConfiguration(new MunicipioConfiguration());
+            modelBuilder.ApplyConfiguration(new Ref311Configuration());
             modelBuilder.ApplyConfiguration(new PessoaFisicaConfiguration());
             modelBuilder.ApplyConfiguration(new PessoaJuridicaConfiguration());
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new GrupoUserConfiguration());
             modelBuilder.ApplyConfiguration(new UsersGrupoConfiguration());
-            modelBuilder.ApplyConfiguration(new Ref311Configuration());
-            modelBuilder.ApplyConfiguration(new Reg0000Configuration());
+            modelBuilder.ApplyConfiguration(new Reg0000EFDCConfiguration());
             base.OnModelCreating(modelBuilder);
         }
 

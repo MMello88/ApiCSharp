@@ -1,11 +1,11 @@
-﻿using lab.Domain.Entities.Cadastro.Auxiliar;
-using lab.Domain.Entities.Cadastro.Referencias;
+﻿using lab.Domain.Entities.Cadastro.Referencias;
 using lab.Domain.Entities.Enums.Indicadores;
+using lab.Domain.Entities.Registro;
 using System;
 
 namespace lab.Domain.Entities.Bloco.b0
 {
-    public class Reg0000
+    public class Reg0000EFDC
     {
         public int Id { get; set; }
         public string REG { get; set; }
@@ -16,12 +16,11 @@ namespace lab.Domain.Entities.Bloco.b0
         public string NUM_REC_ANTERIOR { get; set; }
         public DateTime DT_INI { get; set; }
         public DateTime DT_FIN { get; set; }
-        public string NOME { get; set; }
-        public int CNPJ { get; set; }
-        public int MunicipioId { get; set; }
-        public virtual Municipio Municipio { get; set; }
-        public string SUFRAMA { get; set; }
         public IndicadorNaturezaPessoaJuridicaEnum IND_NAT_PJ { get; set; }
         public IndicadorTipoAtividadePreponderanteEnum IND_ATIV { get; set; }
+        public int PessoaJuridicaId { get; set; }
+        public  virtual PessoaJuridica PessoaJuridica { get; set; }
+        public int UserId { get; set; }
+        public virtual User User { get; set; }
     }
 }

@@ -9,8 +9,8 @@ using lab.Infra.Data.Context;
 namespace lab.Infra.Data.Migrations
 {
     [DbContext(typeof(labContext))]
-    [Migration("20200121174224_AdicionandoRegitro0000")]
-    partial class AdicionandoRegitro0000
+    [Migration("20200123024314_AdicionandoRegitroEFDC0000")]
+    partial class AdicionandoRegitroEFDC0000
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -19,15 +19,11 @@ namespace lab.Infra.Data.Migrations
                 .HasAnnotation("ProductVersion", "3.1.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("lab.Domain.Entities.Bloco.b0.Reg0000", b =>
+            modelBuilder.Entity("lab.Domain.Entities.Bloco.b0.Reg0000EFDC", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    b.Property<int>("CNPJ")
-                        .HasColumnType("int")
-                        .HasMaxLength(14);
 
                     b.Property<DateTime>("DT_FIN")
                         .HasColumnType("datetime(6)");
@@ -47,17 +43,15 @@ namespace lab.Infra.Data.Migrations
                         .HasColumnType("int")
                         .HasMaxLength(1);
 
-                    b.Property<int>("MunicipioId")
+                    b.Property<int?>("MunicipioId")
                         .HasColumnType("int");
-
-                    b.Property<string>("NOME")
-                        .IsRequired()
-                        .HasColumnType("varchar(100) CHARACTER SET utf8mb4")
-                        .HasMaxLength(100);
 
                     b.Property<string>("NUM_REC_ANTERIOR")
                         .HasColumnType("varchar(41) CHARACTER SET utf8mb4")
                         .HasMaxLength(41);
+
+                    b.Property<int>("PessoaJuridicaId")
+                        .HasColumnType("int");
 
                     b.Property<string>("REG")
                         .IsRequired()
@@ -69,21 +63,26 @@ namespace lab.Infra.Data.Migrations
                     b.Property<int>("Ref311Id")
                         .HasColumnType("int");
 
-                    b.Property<string>("SUFRAMA")
-                        .HasColumnType("varchar(9) CHARACTER SET utf8mb4")
-                        .HasMaxLength(9);
-
                     b.Property<int>("TIPO_ESCRIT")
                         .HasColumnType("int")
                         .HasMaxLength(1);
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("MunicipioId");
 
+                    b.HasIndex("PessoaJuridicaId")
+                        .IsUnique();
+
                     b.HasIndex("Ref311Id");
 
-                    b.ToTable("Regs0000");
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Regs0000EFDC");
                 });
 
             modelBuilder.Entity("lab.Domain.Entities.Cadastro.Auxiliar.Municipio", b =>
@@ -160,6 +159,64 @@ namespace lab.Infra.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Ref311");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Codigo = "001",
+                            Leiaout = "ADE Cofis nº 31/2010",
+                            Periodo = new DateTime(2011, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Versao = "1.00"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Codigo = "002",
+                            Leiaout = "ADE Cofis nº 34/2010, atualizado pelo ADE Cofis nº 37/2010",
+                            Periodo = new DateTime(2011, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Versao = "1.01"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Codigo = "002",
+                            Leiaout = "ADE Cofis nº 20/2012",
+                            Periodo = new DateTime(2011, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Versao = "2.00"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Codigo = "003",
+                            Leiaout = "ADE Cofis nº 20/2012",
+                            Periodo = new DateTime(2012, 7, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Versao = "2.01A"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Codigo = "004",
+                            Leiaout = "ADE Cofis nº 20/2012",
+                            Periodo = new DateTime(2018, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Versao = "3.0.0"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Codigo = "005",
+                            Leiaout = "ADE Cofis nº 82/2018",
+                            Periodo = new DateTime(2019, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Versao = "3.1.0"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Codigo = "006",
+                            Leiaout = "ADE Cofis nº 82/2018",
+                            Periodo = new DateTime(2020, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Versao = "3.2.0"
+                        });
                 });
 
             modelBuilder.Entity("lab.Domain.Entities.Registro.GrupoUser", b =>
@@ -395,17 +452,27 @@ namespace lab.Infra.Data.Migrations
                     b.ToTable("UsersGrupo");
                 });
 
-            modelBuilder.Entity("lab.Domain.Entities.Bloco.b0.Reg0000", b =>
+            modelBuilder.Entity("lab.Domain.Entities.Bloco.b0.Reg0000EFDC", b =>
                 {
-                    b.HasOne("lab.Domain.Entities.Cadastro.Auxiliar.Municipio", "Municipio")
+                    b.HasOne("lab.Domain.Entities.Cadastro.Auxiliar.Municipio", null)
                         .WithMany("Regs0000")
-                        .HasForeignKey("MunicipioId")
+                        .HasForeignKey("MunicipioId");
+
+                    b.HasOne("lab.Domain.Entities.Registro.PessoaJuridica", "PessoaJuridica")
+                        .WithOne("Regs0000EFDC")
+                        .HasForeignKey("lab.Domain.Entities.Bloco.b0.Reg0000EFDC", "PessoaJuridicaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("lab.Domain.Entities.Cadastro.Referencias.Ref311", "Ref311")
-                        .WithMany("Regs0000")
+                        .WithMany("Regs0000EFD")
                         .HasForeignKey("Ref311Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("lab.Domain.Entities.Registro.User", "User")
+                        .WithOne("Reg0000EFDC")
+                        .HasForeignKey("lab.Domain.Entities.Bloco.b0.Reg0000EFDC", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

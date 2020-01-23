@@ -1,4 +1,5 @@
-﻿using lab.Domain.Entities.Enums;
+﻿using lab.Domain.Entities.Bloco.b0;
+using lab.Domain.Entities.Enums;
 using System;
 using System.Collections.Generic;
 
@@ -17,6 +18,7 @@ namespace lab.Domain.Entities.Registro
         public string Email { get; set; }
         public string Senha { get; set; }
         public virtual ICollection<UsersGrupo> UsersGrupo { get; set; }
+        public virtual Reg0000EFDC Reg0000EFDC { get; set; }
 
     }
 }

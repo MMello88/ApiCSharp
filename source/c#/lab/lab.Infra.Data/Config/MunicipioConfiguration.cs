@@ -14,7 +14,6 @@ namespace lab.Infra.Data.Config
             builder.Property(m => m.CdMunicipio).HasMaxLength(7).IsRequired();
             builder.Property(m => m.Uf).HasMaxLength(2).IsRequired();
             builder.HasMany(m => m.PessoasJuridica).WithOne(pj => pj.Municipio);
-            builder.HasMany(m => m.Regs0000).WithOne(reg0000 => reg0000.Municipio);
         }
     }
 }

@@ -109,7 +109,7 @@ CREATE TABLE `Ref311` (
     CONSTRAINT `PK_Ref311` PRIMARY KEY (`Id`)
 );
 
-CREATE TABLE `Regs0000` (
+CREATE TABLE `Regs0000EFDC` (
     `Id` int NOT NULL AUTO_INCREMENT,
     `REG` varchar(4) CHARACTER SET utf8mb4 NOT NULL DEFAULT '0000',
     `Ref311Id` int NOT NULL,
@@ -118,21 +118,41 @@ CREATE TABLE `Regs0000` (
     `NUM_REC_ANTERIOR` varchar(41) CHARACTER SET utf8mb4 NULL,
     `DT_INI` datetime(6) NOT NULL,
     `DT_FIN` datetime(6) NOT NULL,
-    `NOME` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
-    `CNPJ` int NOT NULL,
-    `MunicipioId` int NOT NULL,
-    `SUFRAMA` varchar(9) CHARACTER SET utf8mb4 NULL,
     `IND_NAT_PJ` int NOT NULL,
     `IND_ATIV` int NOT NULL,
-    CONSTRAINT `PK_Regs0000` PRIMARY KEY (`Id`),
-    CONSTRAINT `FK_Regs0000_Municipios_MunicipioId` FOREIGN KEY (`MunicipioId`) REFERENCES `Municipios` (`Id`) ON DELETE CASCADE,
-    CONSTRAINT `FK_Regs0000_Ref311_Ref311Id` FOREIGN KEY (`Ref311Id`) REFERENCES `Ref311` (`Id`) ON DELETE CASCADE
+    `PessoaJuridicaId` int NOT NULL,
+    `UserId` int NOT NULL,
+    `MunicipioId` int NULL,
+    CONSTRAINT `PK_Regs0000EFDC` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Regs0000EFDC_Municipios_MunicipioId` FOREIGN KEY (`MunicipioId`) REFERENCES `Municipios` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_Regs0000EFDC_PessoasJuridica_PessoaJuridicaId` FOREIGN KEY (`PessoaJuridicaId`) REFERENCES `PessoasJuridica` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_Regs0000EFDC_Ref311_Ref311Id` FOREIGN KEY (`Ref311Id`) REFERENCES `Ref311` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_Regs0000EFDC_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
 );
 
-CREATE INDEX `IX_Regs0000_MunicipioId` ON `Regs0000` (`MunicipioId`);
+INSERT INTO `Ref311` (`Id`, `Codigo`, `Leiaout`, `Periodo`, `Versao`)
+VALUES (1, '001', 'ADE Cofis nº 31/2010', '2011-04-01 00:00:00.000000', '1.00');
+INSERT INTO `Ref311` (`Id`, `Codigo`, `Leiaout`, `Periodo`, `Versao`)
+VALUES (2, '002', 'ADE Cofis nº 34/2010, atualizado pelo ADE Cofis nº 37/2010', '2011-04-01 00:00:00.000000', '1.01');
+INSERT INTO `Ref311` (`Id`, `Codigo`, `Leiaout`, `Periodo`, `Versao`)
+VALUES (3, '002', 'ADE Cofis nº 20/2012', '2011-04-01 00:00:00.000000', '2.00');
+INSERT INTO `Ref311` (`Id`, `Codigo`, `Leiaout`, `Periodo`, `Versao`)
+VALUES (4, '003', 'ADE Cofis nº 20/2012', '2012-07-01 00:00:00.000000', '2.01A');
+INSERT INTO `Ref311` (`Id`, `Codigo`, `Leiaout`, `Periodo`, `Versao`)
+VALUES (5, '004', 'ADE Cofis nº 20/2012', '2018-06-01 00:00:00.000000', '3.0.0');
+INSERT INTO `Ref311` (`Id`, `Codigo`, `Leiaout`, `Periodo`, `Versao`)
+VALUES (6, '005', 'ADE Cofis nº 82/2018', '2019-01-01 00:00:00.000000', '3.1.0');
+INSERT INTO `Ref311` (`Id`, `Codigo`, `Leiaout`, `Periodo`, `Versao`)
+VALUES (7, '006', 'ADE Cofis nº 82/2018', '2020-01-01 00:00:00.000000', '3.2.0');
 
-CREATE INDEX `IX_Regs0000_Ref311Id` ON `Regs0000` (`Ref311Id`);
+CREATE INDEX `IX_Regs0000EFDC_MunicipioId` ON `Regs0000EFDC` (`MunicipioId`);
+
+CREATE UNIQUE INDEX `IX_Regs0000EFDC_PessoaJuridicaId` ON `Regs0000EFDC` (`PessoaJuridicaId`);
+
+CREATE INDEX `IX_Regs0000EFDC_Ref311Id` ON `Regs0000EFDC` (`Ref311Id`);
+
+CREATE UNIQUE INDEX `IX_Regs0000EFDC_UserId` ON `Regs0000EFDC` (`UserId`);
 
 INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
-VALUES ('20200121174224_AdicionandoRegitro0000', '3.1.0');
+VALUES ('20200123024314_AdicionandoRegitroEFDC0000', '3.1.0');
 
