@@ -11,6 +11,5 @@ namespace lab.Domain.Entities.Cadastro.Auxiliar
         public string Nome { get; set; }
         public string Uf { get; set; }
         public virtual ICollection<PessoaJuridica> PessoasJuridica { get; set; }
-        public virtual ICollection<Reg0000EFDC> Regs0000 { get; set; }
     }
 }
