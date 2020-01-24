@@ -1,0 +1,6 @@
+versão=1 COD_DET, DESC_DET, DT_INI, DT_FIN
+00000001|Detalhamento por documento fiscal|01012011|
+00000002|Detalhamento por item/produto/serviço|01012011|
+00000003|Detalhamento por NCM|01012011|
+00000004|Detalhamento por Cliente|01012011|
+00000005|Detalhamento por outros critérios|01012011|

@@ -1,0 +1,15 @@
+versão=1.0 cod da contribuicao|desc|dt_ini|dt_fin - Tabela Código de Contribuição Social Apurada
+01|Contribuição não-cumulativa apurada a alíquota básica|01012006|
+02|Contribuição não-cumulativa apurada a alíquotas diferenciadas|01012006|
+03|Contribuição não-cumulativa apurada a alíquota por unidade de medida de produto|01012006|
+04|Contribuição não-cumulativa apurada a alíquota básica - Atividade Imobiliária|01012006|
+31|Contribuição apurada por substituição tributária|01012006|
+32|Contribuição apurada por substituição tributária - Vendas à Zona Franca de Manaus|01012006|
+51|Contribuição cumulativa apurada a alíquota básica|01012006|
+52|Contribuição cumulativa apurada a alíquotas diferenciadas|01012006|
+53|Contribuição cumulativa apurada a alíquota por unidade de medida de produto|01012006|
+54|Contribuição cumulativa apurada a alíquota básica - Atividade Imobiliária|01012006|
+70|Contribuição apurada da Atividade Imobiliária - RET|01012006|
+71|Contribuição apurada de SCP - Incidência Não Cumulativa|01012006|
+72|Contribuição apurada de SCP - Incidência Cumulativa|01012006|
+99|Contribuição para o PIS/Pasep - Folha de Salários|01012006|

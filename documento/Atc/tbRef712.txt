@@ -1,0 +1,80 @@
+versão=5 CODIGO, DESCRICAO, DT_INI, DT_FIM, IND_ATIV, IND_AJUSTE, GRUPO, IND_OUTROS, TIPO_DEDUC
+D0001|Reversões de provisões|01012013||01;02;03;04;05;06|P|000|N|G
+D0002|Recuperações de créditos baixados como perda, limitados aos valores efetivamente baixados, que não representem ingresso de novas receitas|01012013||01;02;03;04;05;06|P|000|N|G
+D0003|Resultado positivo da avaliação de investimentos pelo valor do patrimônio líquido|01012013||01;02;03;04;05;06|P|000|N|G
+D0004|Lucros e dividendos derivados de investimentos avaliados pelo custo de aquisição, que tenham sido computados como receita|01012013||01;02;03;04;05;06|P|000|N|G
+D0005|Receita decorrente da venda de bens do ativo permanente|01012013||01;02;03;04;05;06|P|000|N|G
+D0006|Vendas canceladas, os descontos incondicionais concedidos, e o IPI e ICMS quando cobrado pelo vendedor dos bens ou prestador dos serviços na condição de substituto tributário|01012014||01;02;03;04;05;06|P|000|N|G
+D0090|Outras deduções e exclusões de caráter geral|01012013||01;02;03;04;05;06|P|000|S|G
+D0101|Despesas incorridas nas operações de intermediação financeira|01012013||01;06|P|100|N|E
+D0102|Encargos com obrigações por refinanciamentos, empréstimos e repasses de recursos de órgãos e instituições oficiais ou de direito privado|01012013||01;06|P|100|N|E
+D0103|Despesas de câmbio|01012013||01;06|P|100|N|E
+D0104|Despesas de arrendamento mercantil, restritas a empresas e instituições arrendadoras|01012013||01;06|P|100|N|E
+D0105|Despesas de operações especiais por conta e ordem do Tesouro Nacional|01012013||01;06|P|100|N|E
+D0106|Deságio na colocação de títulos|01012013||01;06|P|100|N|E
+D0107|Perdas com títulos de renda fixa e variável, exceto com ações|01012013||01;06|P|100|N|E
+D0108|Perdas com ativos financeiros e mercadorias, em operações de hedge|01012013||01;06|P|100|N|E
+D0109|Despesas de captação em operações realizadas no mercado interfinanceiro, inclusive com títulos públicos|01012013||01;06|P|100|N|E
+D0110|Valor auferido em cada período de apuração como remuneração pelos serviços de arrecadação de receitas federais, dividido por 0,04 (quatro centésimos). (dedução específica na base de cálculo da Cofis)|01012014||01;06|P|100|N|E
+D0190|Outras deduções e exclusões de caráter específico|01012013||01;06|P|100|S|E
+D0198|Ajustes Negativos das deduções e exclusões de caráter específico|01012013||01;06|N|100|N|E
+D0199|Ajustes Positivos das deduções e exclusões de caráter específico|01012013||01;06|P|100|N|E
+D0201|Cosseguro e resseguro cedidos|01012013|31122013|02;06|P|200|N|E
+D0201|Prêmios Cancelados e Restituídos|01012014||02;06|P|200|N|E
+D0202|Cancelamentos e restituições de prêmios que houverem sido computados como receitas|01012013|31122013|02;06|P|200|N|E
+D0202|Cancelamentos e Restituições de Cosseguro Aceito|01012014||02;06|P|200|N|E
+D0203|Parcela dos prêmios destinada à constituição de provisões ou reservas técnicas|01012013|31122013|02;06|P|200|N|E
+D0203|Cosseguro Cedido|01012014||02;06|P|200|N|E
+D0204|Parcela dos prêmios destinada à constituição de provisões ou reservas técnicasIndenizações correspondentes aos sinistros ocorridos, efetivamente pagos, deduzidos das importâncias recebidas a título de cosseguros e resseguros, salvados e outros ressarcimentos|01012013|31122013|02;06|P|200|N|E
+D0204|Parcela dos prêmios destinada à constituição de provisões ou reservas técnicas|01012014||02;06|P|200|N|E
+D0205|Indenizações correspondentes aos sinistros ocorridos, efetivamente pagos, deduzidos das importâncias recebidas a título de cosseguros e resseguros, salvados e outros ressarcimentos|01012014||02;06|P|200|N|E
+D0206|Prêmios de Resseguros|01012014||02;06|P|200|N|E
+D0207|Prêmios de Retrocessões Cedidas|01012014||02;06|P|200|N|E
+D0208|Cancelamento e/ou Restituições de Prêmios de Resseguro|01012014||02;06|P|200|N|E
+D0209|Variação das Provisões Técnicas de Retrocessão|01012014||02;06|P|200|N|E
+D0210|Indenizações (correspondentes aos sinistros ocorridos, efetivamente pagos)|01012014||02;06|P|200|N|E
+D0290|Outras deduções e exclusões de caráter específico|01012013||02;06|P|200|S|E
+D0298|Ajustes Negativos das deduções e exclusões de caráter específico|01012013||02;06|N|200|N|E
+D0299|Ajustes Positivos das deduções e exclusões de caráter específico|01012013||02;06|P|200|N|E
+D0301|Parcela das contribuições destinada à constituição de provisões ou reservas técnicas|01012013||03;06|P|300|N|E
+D0302|Rendimentos auferidos nas aplicações financeiras de recursos destinados ao pagamento de benefícios de aposentadoria, pensão, pecúlio e de resgates|01012013|31122013|03;06|P|300|N|E
+D0302|Rendimentos auferidos nas aplicações financeiras destinadas ao pagamento de benefícios de aposentadoria, pensão, pecúlio e de resgates|01012014||03;06|P|300|N|E
+D0303|Rendimentos dos ativos financeiros garantidores das provisões técnicas de empresas de seguros privados destinadas exclusivamente a planos de benefícios de caráter previdenciário e a seguros de vida com cláusula de cobertura por sobrevivência|01012013||03;06|P|300|N|E
+D0390|Outras deduções e exclusões de caráter específico|01012013||03;06|P|300|S|E
+D0398|Ajustes Negativos das deduções e exclusões de caráter específico|01012013||03;06|N|300|N|E
+D0399|Ajustes Positivos das deduções e exclusões de caráter específico|01012013||03;06|P|300|N|E
+D0401|Parcela dos prêmios destinada à constituição de provisões ou reservas técnicas|01012013||04;06|P|400|N|E
+D0402|Rendimentos auferidos nas aplicações financeiras destinadas ao pagamento de resgate de títulos|01012013||04;06|P|400|N|E
+D0490|Outras deduções e exclusões de caráter específico|01012013||04;06|P|400|S|E
+D0498|Ajustes Negativos das deduções e exclusões de caráter específico|01012013||04;06|N|400|N|E
+D0499|Ajustes Positivos das deduções e exclusões de caráter específico|01012013||04;06|P|400|N|E
+D0501|Rendimentos relativos a receitas de aluguel, destinados ao pagamento de benefícios de aposentadoria, pensão, pecúlio e resgates|01012013||03;06|P|500|N|E
+D0502|Receita decorrente da venda de bens imóveis, destinada ao pagamento de benefícios de aposentadoria, pensão, pecúlio e resgates|01012013||03;06|P|500|N|E
+D0503|Resultado positivo, auferido na reavaliação da carteira de investimentos imobiliários referida nos códigos 501 e 502|01012013||03;06|P|500|N|E
+D0590|Outras deduções e exclusões de caráter específico|01012013||03;06|P|500|S|E
+D0598|Ajustes Negativos das deduções e exclusões de caráter específico|01012013||03;06|N|500|N|E
+D0599|Ajustes Positivos das deduções e exclusões de caráter especifico|01012013||03;06|P|500|N|E
+D0601|Co-responsabilidades cedidas|01012013||05;06|P|600|N|E
+D0602|Parcela das contraprestações pecuniárias destinada à constituição de provisões técnicas|01012013||05;06|P|600|N|E
+D0603|Valor referente às indenizações correspondentes aos eventos ocorridos, efetivamente pago, deduzido das importâncias recebidas a título de transferência de responsabilidades|01012013||05;06|P|600|N|E
+D0690|Outras deduções e exclusões de caráter específico|01012013||05;06|P|600|S|E
+D0698|Ajustes Negativos das deduções e exclusões de caráter específico|01012013||05;06|N|600|N|E
+D0699|Ajustes Positivos das deduções e exclusões de caráter específico|01012013||05;06|P|600|N|E
+D0701|Despesas incorridas nas operações de intermediação financeira|01012013|31012014|01;06|P|700|N|E
+D0702|Encargos com obrigações por refinanciamentos, empréstimos e repasses de recursos de órgãos e instituições oficiais ou de direito privado|01012013|31012014|01;06|P|700|N|E
+D0703|Perdas com títulos de renda fixa e variável, exceto com ações|01012013|31012014|01;06|P|700|N|E
+D0704|Perdas com ativos financeiros e mercadorias em operações de hedge|01012013|31012014|01;06|P|700|N|E
+D0705|Ingressos decorrentes de ato cooperativo: Receitas de juros e encargos recebidas diretamente dos associados|01012013||01;06|P|700|N|E
+D0706|Ingressos decorrentes de ato cooperativo: Receitas da prestação de serviços realizados aos associados e recebidas diretamente dos mesmos|01012013|31012014|01;06|P|700|N|E
+D0707|Ingressos decorrentes de ato cooperativo: Receitas financeiras recebidas de aplicações efetuadas em confederação, federação e cooperativa singular de que seja associada|01012013|31012014|01;06|P|700|N|E
+D0708|Ingressos decorrentes de ato cooperativo: Valores arrecadados com a venda de bens móveis e imóveis recebidos de associados para pagamento de empréstimo contraído junto à cooperativa|01012013|31012014|01;06|P|700|N|E
+D0709|Ingressos decorrentes de ato cooperativo: Valores recebidos de órgãos públicos ou de seguradoras para a liquidação parcial ou total de empréstimos contraídos por associados, em decorrência de perda de produção agropecuária, no caso de cooperativas de crédito rural|01012013|31012014|01;06|P|700|N|E
+D0710|Sobras líquidas apuradas na Demonstração do Resultado do Exercício, antes da destinação para a constituição do Fundo de Reserva e do Fundo de Assistência Técnica, Educacional e Social (Fates), previstos no art. 28 da Lei nº 5.764, de 1971.|01012013||01;06|P|700|N|E
+D0790|Outras deduções e exclusões de caráter específico|01012013||01;06|P|700|S|E
+D0798|Ajustes Negativos das deduções e exclusões de caráter específico|01012014||01;06|N|700|N|E
+D0799|Ajustes Positivos das deduções e exclusões de caráter específico|01012014||01;06|P|700|N|E
+D0801|Despesas de Captação de recursos para a Securitização de Créditos Imobiliários|01012014||02;06|P|800|N|E
+D0802|Despesas de Captação de recursos para a Securitização de Créditos Financeiros|01012014||02;06|P|800|N|E
+D0803|Despesas de Captação de recursos para a Securitização de Créditos Agrícolas|01012014||02;06|P|800|N|E
+D0898|Ajustes Negativos das deduções e exclusões de caráter específico|01012014||02;06|N|800|N|E
+D0899|Ajustes Positivos das deduções e exclusões de caráter específico|01012014||02;06|P|800|N|E

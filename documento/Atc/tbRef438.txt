@@ -1,0 +1,10 @@
+versão=2 COD_AJ, DESC_AJ, DT_INI, DT_FIM
+01|Ajuste Oriundo de Ação Judicial|01012011|
+02|Ajuste Oriundo de Processo Administrativo|01012011|
+03|Ajuste Oriundo da Legislação Tributária|01012011|
+04|Ajuste Oriundo Especificamente do RTT|01012011|
+05|Ajuste Oriundo de Outras Situações|01012011|
+06|Estorno|01012011|
+07|Ajuste Oriundo da Legislação Tributária – Adoção do Regime de Caixa – CPRB (Lei nº 12.546/2011, art. 9º, § 12)|01012011|
+08|Ajuste Oriundo da Legislação Tributária – Diferimento de Valores a Recolher no Período – CPRB (Lei nº 12.546/2011, art. 9º, § 12)|01012011|
+09|Ajuste Oriundo da Legislação Tributária – Adição de Valores Diferidos em Período(s) Anterior(es) – CPRB (Lei nº 12.546/2011, art. 9º, § 12)|01012011|

@@ -1,0 +1,102 @@
+versão=5 CODIGO, DESCRICAO, DT_INI, DT_FIM, IND_ATIV, IND_AJUSTE, GRUPO, IND_OUTROS
+R0711|Rendas de Operações de Crédito|01012013|31012014|01;06|P|700|N
+R0712|Rendas de Arrendamento Mercantil|01012013|31012014|01;06|P|700|N
+R0713|Rendas de Câmbio|01012013|31012014|01;06|P|700|N
+R0714|Rendas de Aplicações Interfinanceiras de Liquidez|01012013|31012014|01;06|P|700|N
+R0715|Rendas com Títulos e Valores Mobiliários e Instrumentos Financeiros Derivativos|01012013|31012014|01;06|P|700|N
+R0717|Rendas de Prestação de Serviços|01012013|31012014|01;06|P|700|N
+R0718|Rendas de Participações|01012013|31012014|01;06|P|700|N
+R0719|Outras Receitas Operacionais|01012013|31012014|01;06|P|700|S
+R0731|Lucros em Transações com Valores e Bens|01012013|31012014|01;06|P|700|N
+R0739|Outras Receitas Não Operacionais|01012013|31012014|01;06|P|700|S
+R0751|Receitas de Variações Cambiais|01012013|31012014|01;06|P|700|N
+R0752|Receitas de MTM|01012013|31012014|01;06|P|700|N
+R0759|Outras Receitas Liquidadas no Mês|01012013|31012014|01;06|P|700|S
+R0798|Ajustes Negativos de Receitas|01012013|31012014|01;06|N|700|N
+R0799|Ajustes Positivos de Receitas|01012013|31012014|01;06|P|700|N
+R0111|Rendas de Operações de Crédito|01012014||01;06|P|100|N
+R0112|Rendas de Arrendamento Mercantil|01012014||01;06|P|100|N
+R0113|Rendas de Câmbio|01012014||01;06|P|100|N
+R0114|Rendas de Aplicações Interfinanceiras de Liquidez|01012014||01;06|P|100|N
+R0115|Rendas com Títulos e Valores Mobiliários e Instrumentos Financeiros Derivativos|01012014||01;06|P|100|N
+R0117|Rendas de Prestação de Serviços|01012014||01;06|P|100|N
+R0118|Rendas de Participações|01012014||01;06|P|100|N
+R0119|Outras Receitas Operacionais|01012014||01;06|P|100|S
+R0131|Lucros em Transações com Valores e Bens|01012014||01;06|P|100|N
+R0139|Outras Receitas Não Operacionais|01012014||01;06|P|100|S
+R0151|Receitas de Variações Cambiais|01012014||01;06|P|100|N
+R0152|Receitas de MTM|01012014||01;06|P|100|N
+R0159|Outras Receitas Liquidadas no Mês|01012014||01;06|P|100|S
+R0198|Ajustes Negativos de Receitas|01012014||01;06|N|100|N
+R0199|Ajustes Positivos de Receitas|01012014||01;06|P|100|N
+R0201|Receitas de Comissões|01012013||02;06|P|200|N
+R0202|Outras Receitas da Venda de Bens e Serviços|01012013||02;06|P|200|S
+R0298|Ajustes Negativos de Receitas|01012013||02;06|N|200|N
+R0299|Ajustes Positivos de Receitas|01012013||02;06|P|200|N
+R0301|Prêmios de Seguros Diretos e de Resseguros Retidos|01012013|31122013|02;03;04;06|P|300|N
+R0301|Prêmios de Seguros Diretos|01012014||02;03;04;06|P|300|N
+R0302|Prêmios de Cosseguros Aceitos e Retrocessões|01012013||02;03;04;06|P|300|N
+R0303|Prêmios Ganhos|01012013|31122013|02;03;04;06|P|300|N
+R0303|Variações das Provisões Técnicas – Reversão|01012014||02;03;04;06|P|300|N
+R0304|Recuperação de Sinistros|01012013|31012014|02;03;04;06|P|300|N
+R0305|Variação da Provisão de Sinistros e Eventos Ocorridos mas não Avisados|01012013|31012014|02;03;04;06|P|300|N
+R0306|Outras Receitas de Seguros|01012013||02;03;04;06|P|300|S
+R0321|Prêmio de Resseguros|01012014||02;03;04;06|P|300|N
+R0322|Prêmio de Retrocessão Aceita|01012014||02;03;04;06|P|300|N
+R0323|Variação da Provisão Técnicas de Resseguro|01012014||02;03;04;06|P|300|N
+R0324|Outras Receitas da Resseguros|01012014||02;03;04;06|P|300|S
+R0325|Outros Ajustes Positivos de caráter específico|01012014||02;03;04;06|P|300|S
+R0331|Receita Líquida com Títulos de Capitalização|01012013||02;03;04;06|P|300|N
+R0332|Variações das Provisões Técnicas|01012013|31122013|02;03;04;06|P|300|N
+R0332|Variações das Provisões Técnicas - Reversão|01012014||02;03;04;06|P|300|N
+R0333|Outras receitas de Capitalização|01012013||02;03;04;06|P|300|S
+R0361|Rendas de Contribuições Retidas|01012013|31122013|02;03;04;06|P|300|N
+R0361|Rendas de Contribuições|01012014||02;03;04;06|P|300|N
+R0362|Variações das Provisões Técnicas|01012013|31122013|02;03;04;06|P|300|N
+R0362|Variações das Provisões Técnicas – Reversão|01012014||02;03;04;06|P|300|N
+R0363|Outras Receitas de Previdência|01012013||02;03;04;06|P|300|S
+R0364|Rendas com Taxa de Gestão e Outras Taxas|01012013||02;03;04;06|P|300|N
+R0395|Receitas Financeiras|01012014||02;03;04;06|P|300|N
+R0396|Receitas Patrimoniais|01012014||02;03;04;06|P|300|N
+R0397|Outras Receitas Não Operacionais|01012014||02;03;04;06|P|300|S
+R0398|Ajustes Negativos de Receitas|01012013||02;03;04;06|N|300|N
+R0399|Ajustes Positivos de Receitas|01012013||02;03;04;06|P|300|N
+R0401|Recursos Coletados Previdenciais|01012013|31012014|03;06|P|400|N
+R0402|Recursos Coletados Assistenciais|01012013|31012014|03;06|P|400|N
+R0403|Receitas Administrativas|01012013||03;06|P|400|N
+R0404|Rendas de Investimento (Bruta)|01012013|31012014|03;06|P|400|N
+R0405|Outras Receitas Auferidas no Período|01012013||03;06|P|400|S
+R0406|Adições da Gestão Previdencial|01012013||03;06|P|400|N
+R0407|Rendas de Investimento da Gestão Administrativas|01012013||03;06|P|400|N
+R0408|Rendas de Investimento da Gestão Previdencial|01012013||03;06|P|400|N
+R0498|Ajustes Negativos de Receitas|01012013||03;06|N|400|N
+R0499|Ajustes Positivos de Receitas|01012013||03;06|P|400|N
+R0501|Contraprestações Líquidas / Prêmios Retidos (311)|01012013|31122013|05;06|P|500|N
+R0501|Contraprestações Líquidas / Prêmios Retidos|01012014||05;06|P|500|N
+R0502|Variação das Provisões Técnicas de Operações de Assistencia à Saúde (312)|01012013|31122013|05;06|P|500|N
+R0502|Variação das Provisões Técnicas de Operações de Assistência à Saúde – Reversão|01012014||05;06|P|500|N
+R0503|Receitas com Administração de Planos de Assistência à Saúde (313)|01012013|31122013|05;06|P|500|N
+R0503|Receitas com Administração de Planos de Assistência à Saúde|01012014||05;06|P|500|N
+R0504|Receitas Com o SUS (332)|01012013|31012014|05;06|P|500|N
+R0505|Outras Receitas Operacionais de Assistência à Saúde não Relacionadas com Planos de Saúde da Operadora (333)|01012013|31122013|05;06|P|500|S
+R0505|Receitas com Resseguro|01012014||05;06|P|500|N
+R0506|Receitas Operacionais - Outras (334)|01012013|31122013|05;06|P|500|S
+R0506|Receitas Financeiras|01012014||05;06|P|500|N
+R0507|Receitas de Aplicações Financeiras (341)|01012013|31122013|05;06|P|500|N
+R0507|Receitas Patrimoniais|01012014||05;06|P|500|N
+R0508|Receitas Financeiras com Operações de Assistência à Saúde (342)|01012013|31122013|05;06|P|500|N
+R0508|Outras Receitas Não Operacionais|01012014||05;06|P|500|S
+R0509|Receitas de Ajustes à Valor Presente (343)|01012013|31012014|05;06|P|500|N
+R0510|Outras Receitas Financeiras (348)|01012013|31012014|05;06|P|500|S
+R0511|Receitas Patrimoniais (351)|01012013|31012014|05;06|P|500|N
+R0512|Outras Receitas Operacionais de Planos de Assistência à Saúde (331)|01012013|31122013|05;06|P|500|S
+R0512|Outras Receitas Operacionais de Planos de Assistência à Saúde|01012014||05;06|P|500|S
+R0598|Ajustes Negativos de Receitas|01012013||05;06|N|500|N
+R0599|Ajustes Positivos de Receitas|01012013||05;06|P|500|N
+R0601|Receita da Securitização de Créditos Imobiliários|01012014||05;06|P|600|N
+R0602|Receita da Securitização de Créditos Financeiros|01012014||05;06|P|600|N
+R0603|Receita da Securitização de Créditos Agrícolas|01012014||05;06|P|600|N
+R0604|Outras Receitas da Atividade|01012014||05;06|P|600|S
+R0605|Receitas Não Operacionais|01012014||05;06|P|600|N
+R0698|Ajustes Negativos de Receitas|01012013||05;06|N|600|N
+R0699|Ajustes Positivos de Receitas|01012013||05;06|P|600|N

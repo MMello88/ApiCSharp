@@ -1,0 +1,257 @@
+versão=2 CODIGO, DESCRICAO, DT_INI, DT_FIM, IND_ATIV, IND_AJUSTE, GRUPO, SUBGRUPO, IND_OUTROS
+R0111030|Rendas de adiantamentos a depositantes|01012014||01;06|P|100|R0111|N
+R0111050|Rendas de empréstimos|01012014||01;06|P|100|R0111|N
+R0111100|Rendas de títulos descontados|01012014||01;06|P|100|R0111|N
+R0111150|Rendas de financiamentos|01012014||01;06|P|100|R0111|N
+R0111180|Rendas de financiamentos a agentes financeiros|01012014||01;06|P|100|R0111|N
+R0111200|Rendas de financiamentos à exportação|01012014||01;06|P|100|R0111|N
+R0111230|Rendas de financiamentos de moedas estrangeiras|01012014||01;06|P|100|R0111|N
+R0111250|Rendas de financiamentos com interveniência|01012014||01;06|P|100|R0111|N
+R0111350|Rendas de refinanciamentos de operações de arrendamento|01012014||01;06|P|100|R0111|N
+R0111400|Rendas de financiamentos rurais - aplicações livres|01012014||01;06|P|100|R0111|N
+R0111410|Rendas de financiamentos rurais - aplicações com recursos livres|01072017||01;06|P|100|R0111|N
+R0111420|Rendas de financiamentos rurais - aplicações com recursos direcionados à vista|01072017||01;06|P|100|R0111|N
+R0111430|Rendas de financiamentos rurais - aplicações com recursos direcionados da poupança rural|01072017||01;06|P|100|R0111|N
+R0111440|Rendas de financiamentos rurais - aplicações com recursos direcionados de LCA|01072017||01;06|P|100|R0111|N
+R0111450|Rendas de financiamentos rurais - aplicações obrigatórias|01012014||01;06|P|100|R0111|N
+R0111460|Rendas de financiamentos rurais - aplicações com recursos de fontes públicas|01072017||01;06|P|100|R0111|N
+R0111490|Rendas de financiamentos rurais renegociados (revogado pela Carta Circular 3797/2016)|01072017|01072017|01;06|P|100|R0111|N
+R0111500|Rendas de financiamentos rurais - aplicações repassadas e refinanciadas|01012014||01;06|P|100|R0111|N
+R0111520|Rendas de refinanciamentos de operações com o governo federal|01012014||01;06|P|100|R0111|N
+R0111550|Rendas de financiamentos agroindustriais|01012014||01;06|P|100|R0111|N
+R0111600|Rendas de financiamentos de empreendimentos imobiliários|01012014||01;06|P|100|R0111|N
+R0111650|Rendas de financiamentos habitacionais|01012014||01;06|P|100|R0111|N
+R0111700|Rendas de financiamentos de infraestrutura e desenvolvimento|01012014||01;06|P|100|R0111|N
+R0111800|Rendas de direitos por empréstimos de ações|01012014||01;06|P|100|R0111|N
+R0111850|Rendas de financiamentos de conta margem|01012014||01;06|P|100|R0111|N
+R0111900|Rendas de financiamentos do PROCAP|01012014||01;06|P|100|R0111|N
+R0111920|Rendas de direitos por empréstimos de ouro|01012014||01;06|P|100|R0111|N
+R0112100|Rendas de arrendamentos financeiros - recursos internos|01012014||01;06|P|100|R0112|N
+R0112150|Rendas de arrendamentos operacionais - recursos internos|01012014||01;06|P|100|R0112|N
+R0112200|Rendas de arrendamentos financeiros - recursos externos|01012014||01;06|P|100|R0112|N
+R0112250|Rendas de arrendamentos operacionais - recursos externos|01012014||01;06|P|100|R0112|N
+R0112300|Rendas de subarrendamentos|01012014||01;06|P|100|R0112|N
+R0112600|Lucros na alienação de bens arrendados|01012014||01;06|P|100|R0112|N
+R0113100|Rendas de operações de câmbio|01012014||01;06|P|100|R0113|N
+R0113300|Rendas de variações e diferenças de taxas|01012014||01;06|P|100|R0113|N
+R0113700|Rendas de disponibilidades em moedas estrangeiras - Moedas estrangeiras em espécie|01012014||01;06|P|100|R0113|N
+R0113800|Rendas de disponibilidades em moedas estrangeiras - Demais|01012014||01;06|P|100|R0113|N
+R0114100|Rendas de aplicações em operações compromissadas|01012014||01;06|P|100|R0114|N
+R0114200|Rendas de aplicações em depósitos interfinanceiros|01012014||01;06|P|100|R0114|N
+R0114400|Rendas de aplicações voluntárias no Banco Central|01012014||01;06|P|100|R0114|N
+R0115100|Rendas de títulos de renda fixa|01012014||01;06|P|100|R0115|N
+R0115150|Rendas de títulos e valores mobiliários no exterior|01012014||01;06|P|100|R0115|N
+R0115200|Rendas de títulos de renda variável|01012014||01;06|P|100|R0115|N
+R0115300|Rendas de participações societárias|01012014||01;06|P|100|R0115|N
+R0115400|Rendas de aplicações em fundos de investimento|01012014||01;06|P|100|R0115|N
+R0115500|Rendas de aplicações no fundo de desenvolvimento social|01012014||01;06|P|100|R0115|N
+R0115600|Rendas de aplicações em títulos de desenvolvimento econômico|01012014||01;06|P|100|R0115|N
+R0115700|Rendas de aplicações em ouro|01012014||01;06|P|100|R0115|N
+R0115750|Lucros com títulos de renda fixa|01012014||01;06|P|100|R0115|N
+R0115810|Rendas em operações com derivativos – Swap (ajuste positivo ao valor de mercado)|01012014||01;06|P|100|R0115|N
+R0115815|Rendas em operações com derivativos – Swap (demais rendas)|01012014||01;06|P|100|R0115|N
+R0115820|Rendas em operações com derivativos – Termo (ajuste positivo ao valor de mercado)|01012014||01;06|P|100|R0115|N
+R0115825|Rendas em operações com derivativos – Termo (demais rendas)|01012014||01;06|P|100|R0115|N
+R0115830|Rendas em operações com derivativos – Futuro (ajuste positivo ao valor de mercado)|01012014||01;06|P|100|R0115|N
+R0115835|Rendas em operações com derivativos – Futuro (demais rendas)|01012014||01;06|P|100|R0115|N
+R0115840|Rendas em operações com derivativos – Opções (ajuste positivo ao valor de mercado)|01012014||01;06|P|100|R0115|N
+R0115845|Rendas em operações com derivativos – Opções (demais rendas)|01012014||01;06|P|100|R0115|N
+R0115850|Rendas em operações com derivativos – Outros (ajuste positivo ao valor de mercado)|01012014||01;06|P|100|R0115|N
+R0115855|Rendas em operações com derivativos – Outros (demais rendas)|01012014||01;06|P|100|R0115|N
+R0115900|TVM - ajuste positivo ao valor de mercado - Títulos para negociação|01012014||01;06|P|100|R0115|N
+R0115950|TVM - ajuste positivo ao valor de mercado - Títulos disponíveis para venda|01012014||01;06|P|100|R0115|N
+R0117100|Rendas de administração de fundos de investimento|01012014||01;06|P|100|R0117|N
+R0117150|Rendas de administração de fundos e programas|01012014||01;06|P|100|R0117|N
+R0117200|Rendas de administração de loterias|01012014||01;06|P|100|R0117|N
+R0117250|Rendas de administração de sociedades de investimento|01012014||01;06|P|100|R0117|N
+R0117300|Rendas de assessoria técnica|01012014||01;06|P|100|R0117|N
+R0117350|Rendas de taxas de administração de consórcios|01012014||01;06|P|100|R0117|N
+R0117400|Rendas de cobrança|01012014||01;06|P|100|R0117|N
+R0117450|Rendas de comissões de colocação de títulos|01012014||01;06|P|100|R0117|N
+R0117500|Rendas de corretagens de câmbio|01012014||01;06|P|100|R0117|N
+R0117550|Rendas de administração de ativos redescontados|01012014||01;06|P|100|R0117|N
+R0117600|Rendas de corretagens de operações em bolsas|01012014||01;06|P|100|R0117|N
+R0117700|Rendas de serviços de custódia|01012014||01;06|P|100|R0117|N
+R0117800|Rendas de serviços prestados a ligadas|01012014||01;06|P|100|R0117|N
+R0117900|Rendas de transferência de fundos|01012014||01;06|P|100|R0117|N
+R0117940|Rendas de pacotes de serviços – PF|01012014||01;06|P|100|R0117|N
+R0117950|Rendas de serviços prioritários - PF|01012014||01;06|P|100|R0117|N
+R0117960|Rendas de serviços diferenciados - PF|01012014||01;06|P|100|R0117|N
+R0117970|Rendas de serviços especiais - PF|01012014||01;06|P|100|R0117|N
+R0117980|Rendas de tarifas bancárias - PJ|01012014||01;06|P|100|R0117|N
+R0117990|Rendas de outros serviços|01012014||01;06|P|100|R0117|N
+R0118100|Rendas de ajustes em investimentos no exterior|01012014||01;06|P|100|R0118|N
+R0118200|Rendas de ajustes em investimentos em coligadas e controladas|01012014||01;06|P|100|R0118|N
+R0119100|Rendas de créditos vinculados a operações adquiridas em cessão|01012014||01;06|P|100|R0119|N
+R0119150|Lucros em operações de venda ou de transferência de ativos financeiros|01012014||01;06|P|100|R0119|N
+R0119200|Recuperação de créditos baixados como prejuízo|01012014||01;06|P|100|R0119|N
+R0119250|Rendas de créditos decorrentes de contratos de exportação adquiridos|01012014||01;06|P|100|R0119|N
+R0119300|Recuperação de encargos e despesas|01012014||01;06|P|100|R0119|N
+R0119400|Rendas de aplicações no exterior|01012014||01;06|P|100|R0119|N
+R0119470|Rendas de aplicações em moedas estrangeiras no país|01012014||01;06|P|100|R0119|N
+R0119500|Rendas de créditos por avais e fianças honrados|01012014||01;06|P|100|R0119|N
+R0119550|Rendas de créditos vinculados ao crédito rural|01012014||01;06|P|100|R0119|N
+R0119600|Rendas de créditos vinculados ao banco central|01012014||01;06|P|100|R0119|N
+R0119650|Rendas de créditos vinculados ao SFH|01012014||01;06|P|100|R0119|N
+R0119700|Rendas de garantias prestadas|01012014||01;06|P|100|R0119|N
+R0119750|Rendas de operações especiais|01012014||01;06|P|100|R0119|N
+R0119800|Rendas de repasses interfinanceiros|01012014||01;06|P|100|R0119|N
+R0119850|Rendas de créditos específicos|01012014||01;06|P|100|R0119|N
+R0119860|Ingressos de depósitos intercooperativos|01012014||01;06|P|100|R0119|N
+R0119900|Reversão de provisões operacionais|01012014||01;06|P|100|R0119|N
+R0119990|Outras rendas operacionais|01012014||01;06|P|100|R0119|S
+R0131100|Lucros na alienação de investimentos|01012014||01;06|P|100|R0131|N
+R0131300|Lucros na alienação de participações societárias|01012014||01;06|P|100|R0131|N
+R0131500|Lucros na alienação de valores e bens|01012014||01;06|P|100|R0131|N
+R0139100|Ganhos de capital|01012014||01;06|P|100|R0139|N
+R0139200|Rendas de aluguéis|01012014||01;06|P|100|R0139|N
+R0139900|Reversão de provisões não operacionais|01012014||01;06|P|100|R0139|N
+R0139990|Outras rendas não operacionais|01012014||01;06|P|100|R0139|S
+R0151100|Receitas de variações cambiais|01012014||01;06|P|100|R0151|N
+R0152100|Receitas de MTM|01012014||01;06|P|100|R0152|N
+R0159100|Outras receitas liquidadas no mês|01012014||01;06|P|100|R0152|S
+R0198100|Ajustes negativos de receitas|01012014||01;06|N|100|R0198|N
+R0199100|Ajustes positivos de receitas|01012014||01;06|P|100|R0199|N
+R0201010|Receitas de comissões|01012014||02;06|P|200|R0201|N
+R0201020|Outras receitas da atividade|01012014||02;06|P|200|R0201|S
+R0202010|Receita da venda de bens do ativo permanente|01012014||02;06|P|200|R0202|N
+R0202020|Outras receitas da venda de bens e serviços|01012014||02;06|P|200|R0202|S
+R0298100|Ajustes negativos de receitas|01012014||02;06|N|200|R0298|N
+R0299100|Ajustes positivos de receitas|01012014||02;06|P|200|R0299|N
+R0301010|Premios de Seguros Diretos|01012014||02;03;04;06|P|300|R0301|N
+R0301020|Prêmio convênio DPVAT|01012014||02;03;04;06|P|300|R0301|N
+R0301030|Prêmios - Riscos vigentes não emitidos|01012014||02;03;04;06|P|300|R0301|N
+R0301040|Outros Prêmios|01012014||02;03;04;06|P|300|R0301|S
+R0302010|Cosseguros aceitos de congêneres|01012014||02;03;04;06|P|300|R0302|N
+R0302020|Premios aceitos em retrocessões|01012014||02;03;04;06|P|300|R0302|N
+R0303010|Provisão de prêmios não ganhos|01012014||02;03;04;06|P|300|R0303|N
+R0303020|Provisão de insuficiência de prêmio|01012014||02;03;04;06|P|300|R0303|N
+R0303030|Provisão de benefícios a conceder|01012014||02;03;04;06|P|300|R0303|N
+R0303040|Provisão matemática de benefícios a conceder|01012014||02;03;04;06|P|300|R0303|N
+R0303050|Provisão de riscos não expirados|01012014||02;03;04;06|P|300|R0303|N
+R0303060|Provisão de oscilação de riscos|01012014||02;03;04;06|P|300|R0303|N
+R0303070|Variação das despesas de resseguro|01012014||02;03;04;06|P|300|R0303|N
+R0303080|Outras provisões técnicas|01012014||02;03;04;06|P|300|R0303|S
+R0306010|Rendas com taxa de gestão|01012014||02;03;04;06|P|300|R0306|N
+R0306020|Receitas com administração de apólices|01012014||02;03;04;06|P|300|R0306|N
+R0306030|Receitas com correspondentes no país|01012014||02;03;04;06|P|300|R0306|N
+R0306040|Rendas com taxa de saída|01012014||02;03;04;06|P|300|R0306|N
+R0306050|Emissão de apólices|01012014||02;03;04;06|P|300|R0306|N
+R0306060|Receitas com administração dos seguros do sfh|01012014||02;03;04;06|P|300|R0306|N
+R0306070|Outras receitas - consórcio dpvat|01012014||02;03;04;06|P|300|R0306|S
+R0306080|Outras receitas com operações de seguros|01012014||02;03;04;06|P|300|R0306|S
+R0321010|Prêmios de Resseguros|01012014||02;03;04;06|P|300|R0321|N
+R0322010|Prêmios de Retrocessão Aceita Resseguradora Local|01012014||02;03;04;06|P|300|R0322|N
+R0322020|Prêmios de Retrocessão Aceita Resseguradora Admitida|01012014||02;03;04;06|P|300|R0322|N
+R0322030|Prêmios de Retrocessão Aceita Resseguradora Eventual|01012014||02;03;04;06|P|300|R0322|N
+R0323010|prêmios diferidos|01012014||02;03;04;06|P|300|R0323|N
+R0323020|provisão para riscos em curso|01012014||02;03;04;06|P|300|R0323|N
+R0323030|provisão de excedentes técnicos|01012014||02;03;04;06|P|300|R0323|N
+R0323040|provisão matemática de benefícios a conceder|01012014||02;03;04;06|P|300|R0323|N
+R0323050|provisão matemática de benefícios concedidos|01012014||02;03;04;06|P|300|R0323|N
+R0323060|provisão complementar de cobertura|01012014||02;03;04;06|P|300|R0323|N
+R0323070|provisão de oscilação de riscos|01012014||02;03;04;06|P|300|R0323|N
+R0323080|outras provisões técnicas|01012014||02;03;04;06|P|300|R0323|S
+R0324010|Outras receitas com operações de resseguros|01012014||02;03;04;06|P|300|R0324|S
+R0324020|Outras receitas com operações de retrocessões aceitas|01012014||02;03;04;06|P|300|R0324|S
+R0324030|Participação nos lucros com retrocessões|01012014||02;03;04;06|P|300|R0324|N
+R0331010|Arrecadação com títulos de capitalização|01012014||02;03;04;06|P|300|R0331|N
+R0332010|Reversão da provisão para resgate|01012014||02;03;04;06|P|300|R0332|N
+R0332020|Despesa com resgate|01012014||02;03;04;06|P|300|R0332|N
+R0332030|Reversão da provisão para receita diferida|01012014||02;03;04;06|P|300|R0332|N
+R0332040|Variação de provisão para distribuição de bônus|01012014||02;03;04;06|P|300|R0332|N
+R0332050|Variação de outras provisões técnicas|01012014||02;03;04;06|P|300|R0332|N
+R0332060|Reversão da provisão para sorteios|01012014||02;03;04;06|P|300|R0332|N
+R0332070|Reversão da provisão para participação nos lucros|01012014||02;03;04;06|P|300|R0332|N
+R0333010|Receita com resgate de título|01012014||02;03;04;06|P|300|R0333|N
+R0333020|Receita com prescrição de exigibilidades|01012014||02;03;04;06|P|300|R0333|N
+R0333030|Outras receitas com operação de capitalização|01012014||02;03;04;06|P|300|R0333|S
+R0361010|Planos de peculio-repartição simples|01012014||02;03;04;06|P|300|R0361|N
+R0361020|Planos de peculio- capitalização|01012014||02;03;04;06|P|300|R0361|N
+R0361030|Planos de renda - pensão - repartição de capitais de cobertura|01012014||02;03;04;06|P|300|R0361|N
+R0361040|Planos de renda -pensão - capitalização|01012014||02;03;04;06|P|300|R0361|N
+R0361050|Planos de renda - invalidez -repartição de capitais de cobertura|01012014||02;03;04;06|P|300|R0361|N
+R0361060|Planos de renda - invalidez -capitalização|01012014||02;03;04;06|P|300|R0361|N
+R0361070|Planos de renda -aposentadoria - capitalizaçao|01012014||02;03;04;06|P|300|R0361|N
+R0361080|Planos de peculio-repartição simples|01012014||02;03;04;06|P|300|R0361|N
+R0361090|Planos de peculio- capitalização|01012014||02;03;04;06|P|300|R0361|N
+R0361100|Planos de renda - pensão - repartição de capitais de cobertura|01012014||02;03;04;06|P|300|R0361|N
+R0361110|Planos de renda -pensão - capitalização|01012014||02;03;04;06|P|300|R0361|N
+R0361120|Planos de renda - invalidez -repartição de capitais de cobertura|01012014||02;03;04;06|P|300|R0361|N
+R0361130|Planos de renda - invalidez -capitalização|01012014||02;03;04;06|P|300|R0361|N
+R0361140|Planos de renda -aposentadoria - capitalização|01012014||02;03;04;06|P|300|R0361|N
+R0361150|Planos de contribuição variavél|01012014||02;03;04;06|P|300|R0361|N
+R0361160|Planos de peculio-repartição simples|01012014||02;03;04;06|P|300|R0361|N
+R0361170|Planos de peculio- capitalização|01012014||02;03;04;06|P|300|R0361|N
+R0361180|Planos de renda - pensão - repartição de capitais de cobertura|01012014||02;03;04;06|P|300|R0361|N
+R0361190|Planos de renda -pensão - capitalização|01012014||02;03;04;06|P|300|R0361|N
+R0361200|Planos de renda - invalidez -repartição de capitais de cobertura|01012014||02;03;04;06|P|300|R0361|N
+R0361210|Planos de renda - invalidez -capitalização|01012014||02;03;04;06|P|300|R0361|N
+R0361220|Planos de renda -aposentadoria - capitalização|01012014||02;03;04;06|P|300|R0361|N
+R0361230|Planos de contribuição variavél|01012014||02;03;04;06|P|300|R0361|N
+R0362010|Prov matematica de benefícios a conceder|01012014||02;03;04;06|P|300|R0362|N
+R0362020|Prov. de riscos não expirados|01012014||02;03;04;06|P|300|R0362|N
+R0362030|Prov. de oscilação de riscos|01012014||02;03;04;06|P|300|R0362|N
+R0362040|Prov de insuficiencia de contribuição|01012014||02;03;04;06|P|300|R0362|N
+R0362050|Outras provisões técnicas|01012014||02;03;04;06|P|300|R0362|S
+R0362060|Prov matematica de benefícios a conceder|01012014||02;03;04;06|P|300|R0362|N
+R0362070|Prov. de riscos não expirados|01012014||02;03;04;06|P|300|R0362|N
+R0362080|Prov. de oscilação de riscos|01012014||02;03;04;06|P|300|R0362|N
+R0362090|Prov de insuficiencia de contribuição|01012014||02;03;04;06|P|300|R0362|N
+R0362100|Outras provisões técnicas previdencia complementar|01012014||02;03;04;06|P|300|R0362|S
+R0362110|Despesas com benefícios|01012014||02;03;04;06|P|300|R0362|N
+R0362120|Variação da provisão de sinistros ocorridos mas não avisados|01012014||02;03;04;06|P|300|R0362|N
+R0362130|Outras provisões|01012014||02;03;04;06|P|300|R0362|S
+R0363010|Rendas com taxa de gestão|01012014||02;03;04;06|P|300|R0363|N
+R0363020|Receita com administração de apólices|01012014||02;03;04;06|P|300|R0363|N
+R0363030|Receitas com correspondentes no pais|01012014||02;03;04;06|P|300|R0363|N
+R0363040|Taxa de saída|01012014||02;03;04;06|P|300|R0363|N
+R0364010|Deságio na transferência de carteira|01012014||02;03;04;06|P|300|R0364|N
+R0364020|Outras receitas operacionais|01012014||02;03;04;06|P|300|R0364|S
+R0395010|Receitas Financeiras proporcionadas pelos ativos garantidores das provisões técnicas|01012014||02;03;04;06|P|300|R0395|N
+R0395020|Demais Receitas Financeiras|01012014||02;03;04;06|P|300|R0395|N
+R0396010|Receitas com imóveis de renda|01012014||02;03;04;06|P|300|R0396|N
+R0396020|Ajustes positivos de investimentos em controladas e coligadas|01012014||02;03;04;06|P|300|R0396|N
+R0396030|Lucro na alienação de bens do ativo não circulante|01012014||02;03;04;06|P|300|R0396|N
+R0396040|Outros investimentos|01012014||02;03;04;06|P|300|R0396|S
+R0397010|Outras Receitas da atividade|01012014||02;03;04;06|P|300|R0397|S
+R0398010|Ajustes negativos de receitas|01012014||02;03;04;06|N|300|R0398|N
+R0399010|Ajustes positivos de receitas|01012014||02;03;04;06|P|300|R0399|N
+R0403010|Gestão Previdencial|01012014||03;06|P|400|R0403|N
+R0403020|Investimentos|01012014||03;06|P|400|R0403|N
+R0403030|Gestão Assistencial|01012014||03;06|P|400|R0403|N
+R0403040|Diretas|01012014||03;06|P|400|R0403|N
+R0403050|Outras|01012014||03;06|P|400|R0403|S
+R0405010|Outras Receitas Auferidas no Período|01012014||03;06|P|400|R0405|S
+R0406010|Adições|01012014||03;06|P|400|R0406|N
+R0407010|Rendas e Variações Positivas|01012014||03;06|P|400|R0407|N
+R0408010|Rendas e Variações Positivas|01012014||03;06|P|400|R0408|N
+R0498010|Gestão Previdencial|01012014||03;06|N|400|R0498|N
+R0498020|Gestão Assistencial|01012014||03;06|N|400|R0498|N
+R0499010|Ajustes positivos de receitas|01012014||03;06|P|400|R0499|N
+R0501010|Contraprestações emitidas / prêmios emitidos de assistência médico-hospitalar|01012014||05;06|P|500|R0501|N
+R0501020|Contraprestações emitidas / prêmios emitidos de assistência odontológica|01012014||05;06|P|500|R0501|N
+R0502010|Variação das provisões técnicas de assistência médico-hospitalar|01012014||05;06|P|500|R0502|N
+R0502020|Variação das provisões técnicas de assistência odontológica|01012014||05;06|P|500|R0502|N
+R0503010|Taxa de administração médico-hospitalar|01012014||05;06|P|500|R0503|N
+R0503020|Taxa de administração de planos odontológicos|01012014||05;06|P|500|R0503|N
+R0512010|Outras receitas operacionais de assistência médico-hospitalar|01012014||05;06|P|500|R0512|S
+R0512020|Outras receitas operacionais de assistência odontológica|01012014||05;06|P|500|R0512|S
+R0512030|Outras receitas operacionais de prestação serviços|01012014||05;06|P|500|R0512|S
+R0505010|Receitas com Sinistros|01012014||05;06|P|500|R0505|N
+R0505020|Outras receitas com resseguro|01012014||05;06|P|500|R0505|S
+R0506010|Receitas Financeiras|01012014||05;06|P|500|R0506|N
+R0507010|Receitas Patrimoniais|01012014||05;06|P|500|R0507|N
+R0508010|Receitas não operacionais decorrentes da venda de bens do ativo permanente (não circulante)|01012014||05;06|P|500|R0508|N
+R0508020|Outras receitas não operacionais|01012014||05;06|P|500|R0508|S
+R0598100|Ajustes negativos de receitas|01012014||05;06|N|500|R0598|N
+R0599100|Ajustes positivos de receitas|01012014||05;06|P|500|R0599|N
+R0601010|Receita da Securitização de Créditos Imobiliários|01012014||01;06|P|600|R0601|N
+R0602010|Receita da Securitização de Créditos Financeiros|01012014||01;06|P|600|R0602|N
+R0603010|Receita da Securitização de Créditos Agrícolas|01012014||01;06|P|600|R0603|N
+R0604010|Outras Receitas da Atividade|01012014||01;06|P|600|R0604|S
+R0605010|Receitas não operacionais decorrentes da venda de bens do ativo permanente (não circulante)|01012014||01;06|P|600|R0605|N
+R0605020|Outras receitas não operacionais|01012014||01;06|P|600|R0605|S
+R0698100|Ajustes negativos de receitas|01012014||01;06|N|600|R0698|N
+R0699100|Ajustes positivos de receitas|01012014||01;06|P|600|R0699|N
+R9999999|Ajustes positivos de receitas|01022014||01;06|P|700|R9999|N

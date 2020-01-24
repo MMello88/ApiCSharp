@@ -1,0 +1,15 @@
+versão=1.0 cod|desc|dt_ini|dt_fin - Situação Tributária do IPI
+00|Entrada com recuperação de crédito|01012009|
+01|Entrada tributada com alíquota zero|01012009|
+02|Entrada isenta|01012009|
+03|Entrada não-tributada|01012009|
+04|Entrada imune|01012009|
+05|Entrada com suspensão|01012009|
+49|Outras entradas|01012009|
+50|Saída tributada|01012009|
+51|Saída tributada com alíquota zero|01012009|
+52|Saída isenta|01012009|
+53|Saída não-tributada|01012009|
+54|Saída imune|01012009|
+55|Saída com suspensão|01012009|
+99|Outras saídas|01012009|

@@ -1,0 +1,29 @@
+versão=3 COD_CRED, DESC_CRED, DT_INI, DT_FIM
+101|Crédito vinculado à receita tributada no mercado interno - Alíquota Básica|01012011|
+102|Crédito vinculado à receita tributada no mercado interno - Alíquotas Diferenciadas|01012011|
+103|Crédito vinculado à receita tributada no mercado interno - Alíquota por Unidade de Produto|01012011|
+104|Crédito vinculado à receita tributada no mercado interno - Estoque de Abertura|01012011|
+105|Crédito vinculado à receita tributada no mercado interno - Aquisição Embalagens para revenda|01012011|
+106|Crédito vinculado à receita tributada no mercado interno - Presumido da Agroindústria|01012011|
+107|Crédito vinculado à receita tributada no mercado interno - Demais Créditos Presumidos|01012011|
+108|Crédito vinculado à receita tributada no mercado interno - Importação|01012011|
+109|Crédito vinculado à receita tributada no mercado interno - Atividade Imobiliária|01012011|
+199|Crédito vinculado à receita tributada no mercado interno - Outros|01012011|
+201|Crédito vinculado à receita não tributada no mercado interno - Alíquota Básica|01012011|
+202|Crédito vinculado à receita não tributada no mercado interno - Alíquotas Diferenciadas|01012011|
+203|Crédito vinculado à receita não tributada no mercado interno - Alíquota por Unidade de Produto|01012011|
+204|Crédito vinculado à receita não tributada no mercado interno - Estoque de Abertura|01012011|
+205|Crédito vinculado à receita não tributada no mercado interno - Aquisição Embalagens para revenda|01012011|
+206|Crédito vinculado à receita não tributada no mercado interno - Presumido da Agroindústria|01012011|
+207|Crédito vinculado à receita não tributada no mercado interno - Demais Créditos Presumidos|01012011|
+208|Crédito vinculado à receita não tributada no mercado interno - Importação|01012011|
+299|Crédito vinculado à receita não tributada no mercado interno - Outros|01012011|
+301|Crédito vinculado à receita de exportação - Alíquota Básica|01012011|
+302|Crédito vinculado à receita de exportação - Alíquotas Diferenciadas|01012011|
+303|Crédito vinculado à receita de exportação - Alíquota por Unidade de Produto|01012011|
+304|Crédito vinculado à receita de exportação - Estoque de Abertura|01012011|
+305|Crédito vinculado à receita de exportação - Aquisição Embalagens para revenda|01012011|
+306|Crédito vinculado à receita de exportação - Presumido da Agroindústria|01012011|
+307|Crédito vinculado à receita de exportação - Demais Créditos Presumidos|01012011|
+308|Crédito vinculado à receita de exportação - Importação|01012011|
+399|Crédito vinculado à receita de exportação - Outros|01012011|

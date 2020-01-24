@@ -1,0 +1,19 @@
+versão=1.0 codigo da base|desc|dt_ini|dt_fin - Tabela de Base de Cálculo do Crédito
+01|Aquisição de bens para revenda|01012006|
+02|Aquisição de bens utilizados como insumo|01012006|
+03|Aquisição de serviços utilizados como insumo|01012006|
+04|Energia elétrica e térmica, inclusive sob a forma de vapor|01012006|
+05|Aluguéis de prédios|01012006|
+06|Aluguéis de máquinas e equipamentos|01012006|
+07|Armazenagem de mercadoria e frete na operação de venda|01012006|
+08|Contraprestações de arrendamento mercantil|01012006|
+09|Máquinas, equipamentos e outros bens incorporados ao ativo imobilizado (crédito sobre encargos de depreciação)|01012006|
+10|Máquinas, equipamentos e outros bens incorporados ao ativo imobilizado (crédito com base no valor de aquisição)|01012006|
+11|Amortização de edificações e benfeitorias em imóveis|01012006|
+12|Devolução de Vendas Sujeitas à Incidência Não-Cumulativa|01012006|
+13|Outras Operações com Direito a Crédito|01012006|
+14|Atividade de Transporte de Cargas - Subcontratação|01012006|
+15|Atividade Imobiliária - Custo Incorrido de Unidade Imobiliária|01012006|
+16|Atividade Imobiliária - Custo Orçado de unidade não concluída|01012006|
+17|Atividade de Prestação de Serviços de Limpeza, Conservação e Manutenção - vale-transporte, vale-refeição ou vale-alimentação, fardamento ou uniforme|01012006|
+18|Estoque de abertura de bens|01012006|

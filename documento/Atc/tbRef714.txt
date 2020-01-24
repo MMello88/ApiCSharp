@@ -1,0 +1,203 @@
+versão=1 CODIGO, DESCRICAO, DT_INI, DT_FIM, IND_ATIV, IND_AJUSTE, GRUPO, SUBGRUPO, IND_OUTROS
+D0001010|Reversão de provisões operacionais|01012014||01;02;03;04;05;06|P|000|D0001|N
+D0001020|Reversão de outras provisões|01012014||01;02;03;04;05;06|P|000|D0001|N
+D0002010|Recuperação de créditos no período – Renegociação de dívida|01012014||01;02;03;04;05;06|P|000|D0002|N
+D0002020|Recuperação de créditos no período – Bens recebidos a título de quitação|01012014||01;02;03;04;05;06|P|000|D0002|N
+D0002030|Recuperação de créditos no período – Demais formas de recuperação|01012014||01;02;03;04;05;06|P|000|D0002|N
+D0003010|Resultado positivo decorrente de participações societárias no país avaliadas pelo patrimônio líquido|01012014||01;02;03;04;05;06|P|000|D0003|N
+D0003020|Resultado positivo decorrente de participações societárias no exterior avaliadas pelo patrimônio líquido|01012014||01;02;03;04;05;06|P|000|D0003|N
+D0004010|Lucros e dividendos derivados de participações societárias no país avaliadas pelo custo de aquisição|01012014||01;02;03;04;05;06|P|000|D0004|N
+D0004020|Lucros e dividendos derivados de participações societárias no exterior avaliadas pelo custo de aquisição|01012014||01;02;03;04;05;06|P|000|D0004|N
+D0005010|Receita da venda de bens do ativo permanente (não-circulante) – Realizável a longo prazo|01012014||01;02;03;04;05;06|P|000|D0005|N
+D0005020|Receita da venda de bens do ativo permanente (não-circulante) – Investimentos|01012014||01;02;03;04;05;06|P|000|D0005|N
+D0005030|Receita da venda de bens do ativo permanente (não-circulante) – Imobilizado|01012014||01;02;03;04;05;06|P|000|D0005|N
+D0006010|Vendas canceladas – Mercadorias e Produtos|01012014||01;02;03;04;05;06|P|000|D0006|N
+D0006020|Vendas canceladas – Serviços|01012014||01;02;03;04;05;06|P|000|D0006|N
+D0006030|Descontos incondicionais|01012014||01;02;03;04;05;06|P|000|D0006|N
+D0006040|IPI – Substituição Tributária|01012014||01;02;03;04;05;06|P|000|D0006|N
+D0006050|ICMS – Substituição tributária|01012014||01;02;03;04;05;06|P|000|D0006|N
+D0090010|Outras deduções e exclusões de caráter geral|01012013||01;02;03;04;05;06|P|000|D0090|S
+D0101010|Despesas de depósito de poupança|01012014||01;06|P|100|D0101|N
+D0101020|Despesas de títulos e valores mobiliários no exterior|01012014||01;06|P|100|D0101|N
+D0101030|Despesas de depósitos interfinanceiros|01012014||01;06|P|100|D0101|N
+D0101040|Despesas de depósitos de aviso prévio|01012014||01;06|P|100|D0101|N
+D0101050|Despesas de depósito a prazo|01012014||01;06|P|100|D0101|N
+D0101060|Despesas de depósitos a prazo de reaplicação automática|01012014||01;06|P|100|D0101|N
+D0101070|Despesas de depósitos judiciais|01012014||01;06|P|100|D0101|N
+D0101080|Despesas de depósitos especiais|01012014||01;06|P|100|D0101|N
+D0101090|Despesas de depósitos de fundos e programas|01012014||01;06|P|100|D0101|N
+D0101100|Despesas de depósitos do FGTS|01012014||01;06|P|100|D0101|N
+D0101110|Despesas de operações compromissadas - carteira própria|01012014||01;06|P|100|D0101|N
+D0101120|Despesas de operações compromissadas - carteira de terceiros|01012014||01;06|P|100|D0101|N
+D0101130|Despesas de operações compromissadas - carteira livre movimentação|01012014||01;06|P|100|D0101|N
+D0101140|Despesas de contratos de assunção de obrigações - vinculados a operações realizadas no país|01012014||01;06|P|100|D0101|N
+D0101150|Despesas de contratos de assunção de obrigações - vinculados a operações realizadas com o exterior|01012014||01;06|P|100|D0101|N
+D0101160|Despesas de aceites cambiais|01012014||01;06|P|100|D0101|N
+D0101170|Despesas de letras de credito do agronegocio|01012014||01;06|P|100|D0101|N
+D0101180|Despesas de letras de credito imobiliário|01012014||01;06|P|100|D0101|N
+D0101190|Despesas de letras hipotecárias|01012014||01;06|P|100|D0101|N
+D0101200|Despesas de letras financeiras|01012014||01;06|P|100|D0101|N
+D0101210|Despesas de letras - Outras|01012014||01;06|P|100|D0101|S
+D0101220|Despesas de contribuição ao fundo garantidor de créditos - FGC|01012014||01;06|P|100|D0101|N
+D0101230|Despesas de debêntures em moeda estrangeira|01012014||01;06|P|100|D0101|N
+D0101240|Despesas de debêntures em moeda nacional|01012014||01;06|P|100|D0101|N
+D0101250|Despesas/cedulas pignoraticias de debentures|01012014||01;06|P|100|D0101|N
+D0101260|APE - despesas de depositos especiais|01012014||01;06|P|100|D0101|N
+D0102010|Despesas de empréstimos - SFH|01012014||01;06|P|100|D0102|N
+D0102020|Despesas de assistência financeira - Banco Central|01012014||01;06|P|100|D0102|N
+D0102030|Despesas de empréstimos – BNCC|01012014||01;06|P|100|D0102|N
+D0102040|Despesas de redescontos|01012014||01;06|P|100|D0102|N
+D0102050|Despesas de refinanciamentos - Banco Central - área bancária|01012014||01;06|P|100|D0102|N
+D0102060|Despesas de refinanciamentos - Tesouro Nacional - área rural e industrial|01012014||01;06|P|100|D0102|N
+D0102070|Despesas de refinanciamentos - recursos do SFH|01012014||01;06|P|100|D0102|N
+D0102080|Despesas de empréstimos no país - outras instituições|01012014||01;06|P|100|D0102|N
+D0102090|Despesas de obrigações por empréstimos de ouro|01012014||01;06|P|100|D0102|N
+D0102100|Despesas de empréstimos no exterior|01012014||01;06|P|100|D0102|N
+D0102110|Despesas de repasses - Tesouro Nacional|01012014||01;06|P|100|D0102|N
+D0102120|Despesas de repasses - Banco do Brasil|01012014||01;06|P|100|D0102|N
+D0102130|Despesas de repasses – BNDES|01012014||01;06|P|100|D0102|N
+D0102140|Despesas de repasses – CEF|01012014||01;06|P|100|D0102|N
+D0102150|Despesas de repasses – FINAME|01012014||01;06|P|100|D0102|N
+D0102160|Despesas de repasses - FINEP|01012014||01;06|P|100|D0102|N
+D0102170|Despesas de repasses - outras instituições oficiais|01012014||01;06|P|100|D0102|S
+D0102180|Despesas de repasses - interfinanceiros|01012014||01;06|P|100|D0102|N
+D0102190|Despesas de repasses do exterior|01012014||01;06|P|100|D0102|N
+D0102200|Despesas de obrigações com banqueiros no exterior|01012014||01;06|P|100|D0102|N
+D0102210|Despesas de obrigações com banqueiros no exterior - taxas flutuantes|01012014||01;06|P|100|D0102|N
+D0103010|Despesas de operações de câmbio - exportação|01012014||01;06|P|100|D0103|N
+D0103020|Despesas de operações de câmbio - importação|01012014||01;06|P|100|D0103|N
+D0103030|Despesas de operações de câmbio - financeiro|01012014||01;06|P|100|D0103|N
+D0103040|Despesas de operações de câmbio - outras|01012014||01;06|P|100|D0103|S
+D0103050|Despesas de operações de câmbio - taxas flutuantes|01012014||01;06|P|100|D0103|N
+D0103060|Despesas de variações e diferenças de taxas|01012014||01;06|P|100|D0103|N
+D0103070|Despesas de variações e diferenças de taxas - taxas flutuantes|01012014||01;06|P|100|D0103|N
+D0103080|Despesas com moedas estrangeiras em espécie, limitadas as receitas correspondentes|01012014||01;06|P|100|D0103|N
+D0104010|Despesas de arrendamentos financeiros|01012014||01;06|P|100|D0104|N
+D0104020|Despesas de arrendamentos operacionais|01012014||01;06|P|100|D0104|N
+D0104030|Despesas de obrigações por subarrendamentos|01012014||01;06|P|100|D0104|N
+D0104040|Prejuízos na alienação de bens arrendados|01012014||01;06|P|100|D0104|N
+D0105010|Despesas de operações especiais por conta e ordem do tesouro nacional|01012014||01;06|P|100|D0105|N
+D0106010|Deságio na colocação de títulos|01012014||01;06|P|100|D0106|N
+D0107010|Prejuízos com títulos de renda fixa|01012014||01;06|P|100|D0107|N
+D0107020|Prejuízos com títulos de renda variável|01012014||01;06|P|100|D0107|N
+D0107040|TVM - ajuste negativo ao valor de mercado – Títulos para negociação|01012014||01;06|P|100|D0107|N
+D0107045|TVM - ajuste negativo ao valor de mercado – Títulos disponíveis para venda|01012014||01;06|P|100|D0107|N
+D0107050|Perdas permanentes|01012014||01;06|P|100|D0107|N
+D0108020|Prejuizos em operações com mercadorias|01012014||01;06|P|100|D0108|N
+D0108030|Prejuizos em aplicações em ouro|01012014||01;06|P|100|D0108|N
+D0108060|Despesas em operações com derivativos – Swap (ajuste negativo ao valor de mercado)|01012014||01;06|P|100|D0108|N
+D0108065|Despesas em operações com derivativos – Swap (demais despesas)|01012014||01;06|P|100|D0108|N
+D0108070|Despesas em operações com derivativos – Termo (ajuste negativo ao valor de mercado)|01012014||01;06|P|100|D0108|N
+D0108075|Despesas em operações com derivativos – Termo (demais despesas)|01012014||01;06|P|100|D0108|N
+D0108080|Despesas em operações com derivativos – Futuro (ajuste negativo ao valor de mercado)|01012014||01;06|P|100|D0108|N
+D0108085|Despesas em operações com derivativos – futuro (demais despesas)|01012014||01;06|P|100|D0108|N
+D0108090|Despesas em operações com derivativos – Opções (ajuste negativo ao valor de mercado)|01012014||01;06|P|100|D0108|N
+D0108095|Despesas em operações com derivativos – Opções (demais despesas)|01012014||01;06|P|100|D0108|N
+D0108100|Despesas em operações com derivativos – Outros (ajuste negativo ao valor de mercado)|01012014||01;06|P|100|D0108|N
+D0108105|Despesas em operações com derivativos – Outros (demais despesas)|01012014||01;06|P|100|D0108|N
+D0109010|Despesas de captação em operações realizadas no mercado interfinanceiro, inclusive com títulos públicos, não relacionadas no grupo “D0101”|01012014||01;06|P|100|D0109|N
+D0110010|Valor devido em cada período de apuração como remuneração pelos serviços de arrecadação de receitas federais (Exclusão específica da base de cálculo da Cofins)|01012014||01;06|P|100|D0110|N
+D0190010|Despesas de obrigações p/fundos financiamento e de desenvolvimento|01012014||01;06|P|100|D0190|N
+D0190020|Despesas de operacoes especiais|01012014||01;06|P|100|D0190|N
+D0190040|Despesas com captacao em titulos de desenvimento economico|01012014||01;06|P|100|D0190|N
+D0190060|Dispênios de depósitos intercooperativos|01012014||01;06|P|100|D0190|N
+D0190090|Outras deduções admitidas na legislação|01012014||01;06|P|100|D0190|N
+D0198010|Ajustes negativos das deduções e exclusões de caráter específico|01012014||01;06|N|100|D0198|N
+D0199010|Ajustes positivos das deduções e exclusões de caráter especifico|01012014||01;06|P|100|D0199|N
+D0101270|A remuneração, os encargos, as despesas e demais custos,  referentes a instrumentos de capital ou de dívida subordinada, emitidos pela pessoa jurídica, exceto na forma de ações|01012014||01;06|P|100|D0101|N
+D0201010|Cancelamentos de Prêmios Emitidos|01012014||02;06|P|200|D0201|N
+D0201020|Restituição de Prêmios Emitidos|01012014||02;06|P|200|D0201|N
+D0202010|Cancelamentos de Cosseguro Aceito|01012014||02;06|P|200|D0202|N
+D0202020|Restituição de Cosseguro Aceito|01012014||02;06|P|200|D0202|N
+D0203010|Prêmios Cedidos em Cosseguro|01012014||02;06|P|200|D0203|N
+D0204010|Variações das Provisões Técnicas|01012014||02;06|P|200|D0204|N
+D0204020|Variação da Despesa de Resseguro|01012014||02;06|P|200|D0204|N
+D0204030|Outras Provisões Técnicas|01012014||02;06|P|200|D0204|S
+D0205010|Indenizações correspondentes aos sinistros ocorridos, efetivamente pagos - Seguros de ramos elementares|01012014||02;06|P|200|D0205|S
+D0205020|Indenizações correspondentes aos sinistros ocorridos, efetivamente pagos - Seguros de vida sem cláusula de cobertura por sobrevivência|01012014||02;06|P|200|D0205|S
+D0206010|Prêmios de Resseguros|01012014||02;06|P|200|D0206|N
+D0206020|Comissões sobre Prêmio de Resseguros|01012014||02;06|P|200|D0206|N
+D0207010|Prêmios Resseguradora Local|01012014||02;06|P|200|D0207|N
+D0207020|Prêmios Resseguradora Admitida|01012014||02;06|P|200|D0207|N
+D0207030|Prêmios Resseguradora Evetual|01012014||02;06|P|200|D0207|N
+D0208010|Cancelamento de prêmios efetivo|01012014||02;06|P|200|D0208|N
+D0208020|Restituição de prêmios efetivo|01012014||02;06|P|200|D0208|N
+D0208030|Cancelamento de prêmios estimado|01012014||02;06|P|200|D0208|N
+D0208040|Cancelamento de prêmios efetivos retrocessão aceita - resseguradora local|01012014||02;06|P|200|D0208|N
+D0208050|Restituição de prêmios efetivos retrocessao aceita - resseguradora local|01012014||02;06|P|200|D0208|N
+D0208060|Cancelamento de prêmios estimado de retrocessão aceita - resseguradora local|01012014||02;06|P|200|D0208|N
+D0208070|Cancelamento de prêmios efetivos retrocessão aceita - resseguradora admitida|01012014||02;06|P|200|D0208|N
+D0208080|Restituição de prêmios efetivos retrocessao aceita - resseguradora admitida|01012014||02;06|P|200|D0208|N
+D0208090|Cancelamento de prêmios estimado de retrocessão aceita - resseguradora admitida|01012014||02;06|P|200|D0208|N
+D0208100|Cancelamento de prêmios efetivos retrocessão aceita - resseguradora eventual|01012014||02;06|P|200|D0208|N
+D0208110|Restituição de prêmios efetivos retrocessao aceita - resseguradora eventual|01012014||02;06|P|200|D0208|N
+D0208120|Cancelamento de prêmios estimado de retrocessão aceita - resseguradora eventual|01012014||02;06|P|200|D0208|N
+D0209010|Provisão de prêmios não ganhos|01012014||02;06|P|200|D0209|N
+D0209020|Provisão de insuficiência de prêmios|01012014||02;06|P|200|D0209|N
+D0209030|Provisão complementar de cobertura|01012014||02;06|P|200|D0209|N
+D0209040|Provisão matemática de benefícios a conceder|01012014||02;06|P|200|D0209|N
+D0209050|Provisão matemática de benefícios concedidos|01012014||02;06|P|200|D0209|N
+D0209060|Provisão de excedente técnico|01012014||02;06|P|200|D0209|N
+D0209070|Outras provisões|01012014||02;06|P|200|D0209|S
+D0290010|Outras deduções e exclusões de caráter específico|01012014||02;06|P|200|D0290|S
+D0298020|Importâncias recebidas a título de cosseguros - Seguros de ramos elementares (referentes á dedução das indenizações efetivamente pagas - Código D0205010)|01012014||02;06|N|200|D0298|N
+D0298030|Importâncias recebidas a título de resseguros - Seguros de ramos elementares (referentes á dedução das indenizações efetivamente pagas - Código D0205010)|01012014||02;06|N|200|D0298|N
+D0298040|Importâncias recebidas a título de salvados - Seguros de ramos elementares (referentes á dedução das indenizações efetivamente pagas - Código D0205010)|01012014||02;06|N|200|D0298|N
+D0298050|Importâncias recebidas a título de outros ressarcimentos - Seguros de ramos elementares (referentes á dedução das indenizações efetivamente pagas - Código D0205010)|01012014||02;06|N|200|D0298|N
+D0298060|Importâncias recebidas a título de cosseguros - Seguros de vida sem cláusula de cobertura por sobrevivência  (referentes á dedução das indenizações efetivamente pagas - Código D0205020)|01012014||02;06|N|200|D0298|N
+D0298070|Importâncias recebidas a título de resseguros - Seguros de vida sem cláusula de cobertura por sobrevivência  (referentes á dedução das indenizações efetivamente pagas - Código D0205020)|01012014||02;06|N|200|D0298|N
+D0298080|Importâncias recebidas a título de salvados - Seguros de vida sem cláusula de cobertura por sobrevivência  (referentes á dedução das indenizações efetivamente pagas - Código D0205020)|01012014||02;06|N|200|D0298|N
+D0298090|Importâncias recebidas a título outros ressarcimentos - Seguros de vida sem cláusula de cobertura por sobrevivência  (referentes á dedução das indenizações efetivamente pagas - Código D0205020)|01012014||02;06|N|200|D0298|N
+D0299010|Ajustes positivos das deduções de caráter específicos|01012014||02;06|P|200|D0299|N
+D0301010|Provisões de prêmios - Previdencia Complementar Aberta  (Resolução CNSP nº 281/2014)|01012014||03;06|P|300|D0301|N
+D0301020|Provisões matematicas - Previdencia Complementar Aberta  (Resolução CNSP nº 281/2014)|01012014||03;06|P|300|D0301|S
+D0301030|Demais provisões - Previdencia Complementar Aberta (Resolução CNSP nº 281/2014)|01012014||03;06|P|300|D0301|N
+D0301070|Provisões ou reservas técnicas - Entidades fechadas|01012014||03;06|P|300|D0301|N
+D0302010|Rendimentos auferidos nas Aplicações Financeiras de recursos destinados com Provisões Técnicas|01012014||03;06|P|300|D0302|N
+D0303010|Rendimentos dos ativos financeiros garantidores das provisões técnicas de empresas de seguros privados destinadas exclusivamente a planos de benefícios de caráter previdenciário e a seguros de vida com cláusula de cobertura por sobrevivência|01012014||03;06|P|300|D0303|N
+D0390010|Outras deduções e exclusões de caráter específico|01012014||03;06|P|300|D0390|S
+D0398010|Ajustes Negativos das deduções e exclusões de caráter específico|01012014||03;06|N|300|D0398|N
+D0399010|Ajustes Negativos das deduções e exclusões de caráter específico|01012014||03;06|P|300|D0399|N
+D0401010|Provisões para resgates (Resolução CNSP nº 281/2014)|01012014||04;06|P|400|D0401|N
+D0401020|Provisões para sorteios (Resolução CNSP nº 281/2014)|01012014||04;06|P|400|D0401|N
+D0401030|Demais provisões (Resolução CNSP nº 281/2014)|01012014||04;06|P|400|D0401|N
+D0402010|Rendimentos Auferidos na Aplicações Financeiras destinadas ao pagamento de Resgate de Títulos|01012014||04;06|P|400|D0402|N
+D0490010|Outras deduções e exclusões de caráter específico|01012014||04;06|P|400|D0490|S
+D0498010|Ajustes Negativos das deduções e exclusões de caráter específico|01012014||04;06|N|400|D0498|N
+D0499010|Ajustes Positivos das deduções e exclusões de caráter específico|01012014||04;06|P|400|D0499|N
+D0501010|Alugueis e Renda|01012014||03;06|P|500|D0501|N
+D0502010|Lucro na venda|01012014||03;06|P|500|D0502|N
+D0503010|Reavaliação positiva da carteira de investimentos imobiliários referida nos Códigos D0501 e D0502|01012014||03;06|P|500|D0503|N
+D0590010|Outras deduções e exclusões de caráter específico|01012014||03;06|P|500|D0590|S
+D0598010|Ajustes Negativos das deduções e exclusões de caráter específico|01012014||03;06|N|500|D0598|N
+D0599010|Ajustes Positivos das deduções e exclusões de caráter específico|01012014||03;06|P|500|D0599|N
+D0601010|Contraprestações de corresponsabilidade transferida de assistência médico-hospitalar|01012014||05;06|P|600|D0601|N
+D0601020|Contraprestações de corresponsabilidade transferida de assistência odontológica|01012014||05;06|P|600|D0601|N
+D0602010|Variação das provisões técnicas de assistência médico-hospitalar|01012014||05;06|P|600|D0602|N
+D0602020|Variação das provisões técnicas de assistência odontológica|01012014||05;06|P|600|D0602|N
+D0603010|Eventos/sinistro conhecidos ou avisados de assistência a saúde médico hospitalar|01012014||05;06|P|600|D0603|N
+D0603020|Eventos/sinistro conhecidos ou avisados de assistência odontológica|01012014||05;06|P|600|D0603|N
+D0603030|Despesas  operações de assistência médico hospitalar|01012014||05;06|P|600|D0603|N
+D0603040|Despesas  operações de assistência odontológica|01012014||05;06|P|600|D0603|N
+D0603050|Outras despesas operacionais|01012014||05;06|P|600|D0603|S
+D0603060|Despesa de resseguro (cobertura assistencial médico hospitalar)|01012014||05;06|P|600|D0603|N
+D0603070|Despesa de resseguro  (cobertura assistencial odontológica)|01012014||05;06|P|600|D0603|N
+D0603080|Outras despesas de resseguro|01012014||05;06|P|600|D0603|S
+D0603990|Indenizações efetivamente pagas|01012014||05;06|P|600|D0603|N
+D0690080|Sobras apuradas na DRE destinadas ao FATES e FUNDO de RESERVA(art 28 Lei 5764/71), previsto no art 10 da IN 635|01012014||05;06|P|600|D0690|N
+D0698010|Ajustes Negativos das deduções e exclusões de caráter específico|01012014||05;06|N|600|D0698|N
+D0699010|Ajustes Positivos das deduções e exclusões de caráter específico|01012014||05;06|P|600|D0699|N
+D0705010|Receitas de juros e encargos recebidas diretamente dos associados|01012014||01;06|P|700|D0705|N
+D0705020|Receitas da prestação de serviços realizados aos associados e recebidas diretamente dos mesmos|01012014||01;06|P|700|D0705|N
+D0705030|Receitas financeiras recebidas de aplicações efetuadas em confederação, federação e cooperativa singular de que seja associada|01012014||01;06|P|700|D0705|N
+D0705040|Valores arrecadados com a venda de bens móveis e imóveis recebidos de associados para pagamento de empréstimo contraído junto à cooperativa|01012014||01;06|P|700|D0705|N
+D0705050|Valores recebidos de órgãos públicos ou de seguradoras para a liquidação parcial ou total de empréstimos contraídos por associados, em decorrência de perda de produção agropecuária, no caso de cooperativas de crédito rural|01012014||01;06|P|700|D0705|N
+D0710010|Sobras líquidas apuradas na Demonstração do Resultado do Exercício, antes da destinação para a constituição do Fundo de Reserva e do Fundo de Assistência Técnica, Educacional e Social (Fates), previstos no art. 28 da Lei nº 5.764, de 1971.|01012014||01;06|P|700|D0710|N
+D0790010|Outras deduções e exclusões de caráter específico|01012014||01;06|P|700|D0790|S
+D0798010|Ajustes Negativos das deduções e exclusões de caráter específico|01012014||01;06|N|700|D0798|N
+D0799010|Ajustes Positivos das deduções e exclusões de caráter específico|01012014||01;06|P|700|D0799|N
+D0801010|Despesas de Captação de recursos para a Securitização de Créditos Imobiliários|01012014||01;06|P|800|D0801|N
+D0802010|Despesas de Captação de recursos para a Securitização de Créditos Financeiros|01012014||01;06|P|800|D0802|N
+D0803010|Despesas de Captação de recursos para a Securitização de Créditos Agrícolas|01012014||01;06|P|800|D0803|N
+D0898010|Ajustes Negativos das deduções e exclusões de caráter específico|01012014||01;06|N|800|D0898|N
+D0899010|Ajustes Positivos das deduções e exclusões de caráter específico|01012014||01;06|P|800|D0803|N

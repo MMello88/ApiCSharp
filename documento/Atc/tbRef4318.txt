@@ -1,0 +1,7 @@
+versão=2 COD_AJUSTE, DESCRICAO, OBRIGA_DET, DT_INI, DT_FIM
+01|Vendas canceladas de receitas tributadas em períodos anteriores|N|01012002|
+02|Devoluções de vendas tributadas em períodos anteriores|N|01012002|
+21|ICMS a recolher sobre Operações próprias (PJs com decisão judicial transitada em julgado)|N|01012002|31032019
+21|ICMS a recolher sobre Operações próprias (PJs com decisão judicial transitada em julgado)|S|01042019|
+41|Outros valores a excluir, vinculados à decisão judicial com trânsito em julgado|N|01012002|
+42|Outros valores a excluir, não vinculados à decisão judicial|N|01012002|

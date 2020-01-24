@@ -1,0 +1,39 @@
+versão=5 COD_MOD, DESC_MOD, DT_INI, DT_FIM
+01|Nota Fiscal|01012009|
+1B|Nota Fiscal Avulsa|01012009|
+02|Nota Fiscal de Venda a Consumidor|01012009|
+2D|Cupom Fiscal emitido por ECF|01012009|
+2E|Bilhete de Passagem emitido por ECF|01012009|
+04|Nota Fiscal de Produtor|01012009|
+06|Nota Fiscal/Conta de Energia Elétrica|01012009|
+07|Nota Fiscal de Serviço de Transporte|01012009|
+08|Conhecimento de Transporte Rodoviário de Cargas|01012009|
+8B|Conhecimento de Transporte de Cargas Avulso|01012009|
+09|Conhecimento de Transporte Aquaviário de Cargas|01012009|
+10|Conhecimento Aéreo|01012009|
+11|Conhecimento de Transporte Ferroviário de Cargas|01012009|
+13|Bilhete de Passagem Rodoviário|01012009|
+14|Bilhete de Passagem Aquaviário|01012009|
+15|Bilhete de Passagem e Nota de Bagagem|01012009|
+17|Despacho de Transporte|01012009|
+16|Bilhete de Passagem Ferroviário|01012009|
+18|Resumo de Movimento Diário|01012009|
+20|Ordem de Coleta de Cargas|01012009|
+21|Nota Fiscal de Serviço de Comunicação|01012009|
+22|Nota Fiscal de Serviço de Telecomunicação|01012009|
+23|GNRE|01012009|
+24|Autorização de Carregamento e Transporte|01012009|
+25|Manifesto de Carga|01012009|
+26|Conhecimento de Transporte Multimodal de Cargas|01012009|
+27|Nota Fiscal de Transporte Ferroviário de Cargas|01012009|
+28|Nota Fiscal/Conta de Fornecimento de Gás Canalizado|01012009|
+29|Nota Fiscal/Conta de Fornecimento de Água Canalizada|01012009|
+30|Bilhete/Recibo do Passageiro|01012009|
+55|Nota Fiscal Eletrônica|01012009|
+57|Conhecimento de Transporte Eletrônico - CT-e|01012009|
+59|Cupom Fiscal Eletrônico – CF-e|01062011|
+60|Cupom Fiscal Eletrônico CF-e-ECF|01012013|
+65|Nota Fiscal Eletrônica ao Consumidor Final – NFC-e|01102012|
+67|Conhecimento de Transporte Eletrônico para Outros Serviços - CT-e OS|01042017|
+63|Bilhete de Passagem Eletrônico - BP-e|01012018|
+66|Nota Fiscal de Energia Elétrica Eletrônica - NF3e|01012020|
