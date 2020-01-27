@@ -9,12 +9,12 @@ namespace lab.Infra.Data.Config.Referencias
     {
         public void Configure(EntityTypeBuilder<Ref311> builder)
         {
-            builder.HasKey(r311 => r311.Id);
-            builder.Property(r311 => r311.Codigo).HasMaxLength(5).IsRequired();
-            builder.Property(r311 => r311.Versao).HasMaxLength(5).IsRequired();
-            builder.Property(r311 => r311.Leiaout).HasMaxLength(100).IsRequired();
-            builder.Property(r311 => r311.Periodo).IsRequired();
-            builder.HasMany(r311 => r311.Regs0000EFD).WithOne(reg0000 => reg0000.Ref311);
+            builder.HasKey(r => r.Id);
+            builder.Property(r => r.Codigo).HasMaxLength(5).IsRequired();
+            builder.Property(r => r.Versao).HasMaxLength(5).IsRequired();
+            builder.Property(r => r.Leiaout).HasMaxLength(100).IsRequired();
+            builder.Property(r => r.Periodo).IsRequired();
+            builder.HasMany(r => r.Regs0000EFD).WithOne(reg0000 => reg0000.Ref311);
 
             builder.HasData(
                 new Ref311() { Id = 1, Codigo = "001", Versao = "1.00", Leiaout = "ADE Cofis nº 31/2010", Periodo = Convert.ToDateTime("01/04/2011") },
