@@ -9,7 +9,7 @@ namespace lab.Domain.Entities.Cadastro.Referencias
         public string Codigo { get; set; }
         public string Descricao { get; set; }
         public DateTime DataInicial { get; set; }
-        public DateTime DataFinal { get; set; }
+        public DateTime? DataFinal { get; set; }
         public string IndTipoAtividade { get; set; }
         public string IndAjuste { get; set; }
         public string Grupo { get; set; }

@@ -10,6 +10,6 @@ namespace lab.Domain.Entities.Cadastro.Referencias
         public string Descricao { get; set; }
         public string Modelo { get; set; }
         public DateTime DataInicial { get; set; }
-        public DateTime DataFinal { get; set; }
+        public DateTime? DataFinal { get; set; }
     }
 }

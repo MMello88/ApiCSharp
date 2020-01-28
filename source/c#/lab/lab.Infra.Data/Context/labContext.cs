@@ -29,6 +29,36 @@ namespace lab.Infra.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new Ref411Configuration());
+            modelBuilder.ApplyConfiguration(new Ref412Configuration());
+            modelBuilder.ApplyConfiguration(new Ref412Configuration());
+            modelBuilder.ApplyConfiguration(new Ref422Configuration());
+            modelBuilder.ApplyConfiguration(new Ref4310Configuration());
+            modelBuilder.ApplyConfiguration(new Ref4311Configuration());
+            modelBuilder.ApplyConfiguration(new Ref4312Configuration());
+            modelBuilder.ApplyConfiguration(new Ref4313Configuration());
+            modelBuilder.ApplyConfiguration(new Ref4314Configuration());
+            modelBuilder.ApplyConfiguration(new Ref4315Configuration());
+            modelBuilder.ApplyConfiguration(new Ref4316Configuration());
+            modelBuilder.ApplyConfiguration(new Ref4317Configuration());
+            modelBuilder.ApplyConfiguration(new Ref4318Configuration());
+            modelBuilder.ApplyConfiguration(new Ref431Configuration());
+            modelBuilder.ApplyConfiguration(new Ref432Configuration());
+            modelBuilder.ApplyConfiguration(new Ref433Configuration());
+            modelBuilder.ApplyConfiguration(new Ref434Configuration());
+            modelBuilder.ApplyConfiguration(new Ref435Configuration());
+            modelBuilder.ApplyConfiguration(new Ref436Configuration());
+            modelBuilder.ApplyConfiguration(new Ref437Configuration());
+            modelBuilder.ApplyConfiguration(new Ref438Configuration());
+            modelBuilder.ApplyConfiguration(new Ref439Configuration());
+            modelBuilder.ApplyConfiguration(new Ref511Configuration());
+            modelBuilder.ApplyConfiguration(new Ref512Configuration());
+            modelBuilder.ApplyConfiguration(new Ref711Configuration());
+            modelBuilder.ApplyConfiguration(new Ref712Configuration());
+            modelBuilder.ApplyConfiguration(new Ref713Configuration());
+            modelBuilder.ApplyConfiguration(new Ref714Configuration());
+
+
             modelBuilder.ApplyConfiguration(new PaisConfiguration());
             modelBuilder.ApplyConfiguration(new MunicipioConfiguration());
             modelBuilder.ApplyConfiguration(new Ref311Configuration());

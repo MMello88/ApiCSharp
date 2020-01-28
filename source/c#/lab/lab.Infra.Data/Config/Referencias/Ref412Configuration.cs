@@ -1,6 +1,7 @@
 ﻿using lab.Domain.Entities.Cadastro.Referencias;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System;
 
 namespace lab.Infra.Data.Config.Referencias
 {
@@ -12,6 +13,6 @@ namespace lab.Infra.Data.Config.Referencias
             builder.Property(r => r.Codigo).HasMaxLength(30).IsRequired();
             builder.Property(r => r.Descricao).HasMaxLength(255).IsRequired();
             builder.Property(r => r.DataInicial).IsRequired();
-        }
+		}
     }
 }
