@@ -18,6 +18,8 @@ namespace lab.Infra.Data.Config.Bloco0
             builder.Property(_0000 => _0000.IND_NAT_PJ).HasMaxLength(2);
             builder.Property(_0000 => _0000.IND_ATIV).HasMaxLength(1).IsRequired();
             builder.HasOne(_0000 => _0000.User);
+            builder.HasOne(_0000 => _0000.Reg0001EFDC);
+            builder.HasMany(_0000 => _0000.Regs0035EFDC).WithOne(_0035 => _0035.Reg0000EFDC);
         }
     }
 }

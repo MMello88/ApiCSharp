@@ -2,6 +2,7 @@
 using lab.Domain.Entities.Enums.Indicadores;
 using lab.Domain.Entities.Registro;
 using System;
+using System.Collections.Generic;
 
 namespace lab.Domain.Entities.Bloco.b0
 {
@@ -22,5 +23,7 @@ namespace lab.Domain.Entities.Bloco.b0
         public  virtual PessoaJuridica PessoaJuridica { get; set; }
         public int UserId { get; set; }
         public virtual User User { get; set; }
+        public virtual Reg0001EFDC Reg0001EFDC { get; set; }
+        public virtual ICollection<Reg0035EFDC> Regs0035EFDC { get; set; }
     }
 }

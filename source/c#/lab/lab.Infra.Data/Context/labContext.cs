@@ -20,7 +20,9 @@ namespace lab.Infra.Data.Context
         DbSet<UsersGrupo> UsersGrupo { get; set; }
         DbSet<Ref311> Ref311 { get; set; }
         DbSet<Reg0000EFDC> Regs0000EFDC { get; set; }
-        
+        DbSet<Reg0001EFDC> Regs0001EFDC { get; set; }
+        DbSet<Reg0035EFDC> Regs0035EFDC { get; set; }
+
 
         public labContext(DbContextOptions options) : base(options)
         {
@@ -29,6 +31,7 @@ namespace lab.Infra.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new Ref311Configuration());
             modelBuilder.ApplyConfiguration(new Ref411Configuration());
             modelBuilder.ApplyConfiguration(new Ref412Configuration());
             modelBuilder.ApplyConfiguration(new Ref412Configuration());
@@ -61,13 +64,16 @@ namespace lab.Infra.Data.Context
 
             modelBuilder.ApplyConfiguration(new PaisConfiguration());
             modelBuilder.ApplyConfiguration(new MunicipioConfiguration());
-            modelBuilder.ApplyConfiguration(new Ref311Configuration());
             modelBuilder.ApplyConfiguration(new PessoaFisicaConfiguration());
             modelBuilder.ApplyConfiguration(new PessoaJuridicaConfiguration());
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new GrupoUserConfiguration());
             modelBuilder.ApplyConfiguration(new UsersGrupoConfiguration());
+            
             modelBuilder.ApplyConfiguration(new Reg0000EFDCConfiguration());
+            modelBuilder.ApplyConfiguration(new Reg0001EFDCConfiguration());
+            modelBuilder.ApplyConfiguration(new Reg0035EFDCConfiguration());
+
             base.OnModelCreating(modelBuilder);
         }
 
