@@ -19,8 +19,7 @@ namespace lab.Domain.Entities.Bloco.b0
         public DateTime DT_FIN { get; set; }
         public IndicadorNaturezaPessoaJuridicaEnum IND_NAT_PJ { get; set; }
         public IndicadorTipoAtividadePreponderanteEnum IND_ATIV { get; set; }
-        public int PessoaJuridicaId { get; set; }
-        public  virtual PessoaJuridica PessoaJuridica { get; set; }
+        public virtual PessoaJuridica PessoaJuridica { get; set; }
         public int UserId { get; set; }
         public virtual User User { get; set; }
         public virtual Reg0001EFDC Reg0001EFDC { get; set; }
