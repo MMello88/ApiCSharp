@@ -10,5 +10,6 @@
         public int IndRegCum { get; set; }
         public int Reg0000EFDCId { get; set; }
         public virtual Reg0000EFDC Reg0000EFDC { get; set; }
+        public virtual Reg0111EFDC Reg0111EFDC { get; set; }
     }
 }
