@@ -27561,3 +27561,144 @@ CREATE INDEX `IX_Regs0035EFDC_Reg0000EFDCId` ON `Regs0035EFDC` (`Reg0000EFDCId`)
 INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
 VALUES ('20200128223934_UmParaMuitosReg0000eReg0035', '3.1.0');
 
+ALTER TABLE `Regs0035EFDC` ADD `PessoaJuridicaId` int NOT NULL DEFAULT 0;
+
+ALTER TABLE `Regs0035EFDC` ADD `UserId` int NOT NULL DEFAULT 0;
+
+CREATE INDEX `IX_Regs0035EFDC_PessoaJuridicaId` ON `Regs0035EFDC` (`PessoaJuridicaId`);
+
+CREATE INDEX `IX_Regs0035EFDC_UserId` ON `Regs0035EFDC` (`UserId`);
+
+ALTER TABLE `Regs0035EFDC` ADD CONSTRAINT `FK_Regs0035EFDC_PessoasJuridica_PessoaJuridicaId` FOREIGN KEY (`PessoaJuridicaId`) REFERENCES `PessoasJuridica` (`Id`) ON DELETE CASCADE;
+
+ALTER TABLE `Regs0035EFDC` ADD CONSTRAINT `FK_Regs0035EFDC_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE;
+
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20200201130518_removendoChavePJ00000', '3.1.0');
+
+ALTER TABLE `Regs0000EFDC` DROP FOREIGN KEY `FK_Regs0000EFDC_PessoasJuridica_PessoaJuridicaId`;
+
+ALTER TABLE `Regs0000EFDC` DROP INDEX `IX_Regs0000EFDC_PessoaJuridicaId`;
+
+ALTER TABLE `Regs0000EFDC` MODIFY COLUMN `PessoaJuridicaId` int NULL;
+
+CREATE INDEX `IX_Regs0000EFDC_PessoaJuridicaId` ON `Regs0000EFDC` (`PessoaJuridicaId`);
+
+ALTER TABLE `Regs0000EFDC` ADD CONSTRAINT `FK_Regs0000EFDC_PessoasJuridica_PessoaJuridicaId` FOREIGN KEY (`PessoaJuridicaId`) REFERENCES `PessoasJuridica` (`Id`) ON DELETE RESTRICT;
+
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20200202133751_CriandoChaveUmParaMuitosPJe0000', '3.1.0');
+
+ALTER TABLE `Regs0035EFDC` MODIFY COLUMN `Reg` longtext CHARACTER SET utf8mb4 NULL;
+
+ALTER TABLE `Regs0035EFDC` MODIFY COLUMN `InfoCompl` longtext CHARACTER SET utf8mb4 NULL;
+
+ALTER TABLE `Regs0035EFDC` MODIFY COLUMN `DescSCP` longtext CHARACTER SET utf8mb4 NULL;
+
+CREATE TABLE `Regs0100EFDC` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Reg` varchar(4) CHARACTER SET utf8mb4 NOT NULL DEFAULT '0100',
+    `Nome` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `CPF` int NOT NULL,
+    `CRC` varchar(15) CHARACTER SET utf8mb4 NOT NULL,
+    `CNPJ` int NOT NULL,
+    `CEP` int NOT NULL,
+    `End` varchar(60) CHARACTER SET utf8mb4 NULL,
+    `Num` varchar(5) CHARACTER SET utf8mb4 NULL,
+    `Compl` varchar(60) CHARACTER SET utf8mb4 NULL,
+    `Bairro` varchar(60) CHARACTER SET utf8mb4 NULL,
+    `Fone` varchar(11) CHARACTER SET utf8mb4 NULL,
+    `Fax` varchar(11) CHARACTER SET utf8mb4 NULL,
+    `Email` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `MunicipioId` int NOT NULL,
+    `Reg0000EFDCId` int NOT NULL,
+    CONSTRAINT `PK_Regs0100EFDC` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Regs0100EFDC_Municipios_MunicipioId` FOREIGN KEY (`MunicipioId`) REFERENCES `Municipios` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_Regs0100EFDC_Regs0000EFDC_Reg0000EFDCId` FOREIGN KEY (`Reg0000EFDCId`) REFERENCES `Regs0000EFDC` (`Id`) ON DELETE CASCADE
+);
+
+CREATE TABLE `Regs0110EFDC` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Reg` longtext CHARACTER SET utf8mb4 NULL,
+    `CodIncTrib` int NOT NULL,
+    `IndAproCred` int NOT NULL,
+    `CodTipoCont` int NOT NULL,
+    `IndRegCum` int NOT NULL,
+    `Reg0000EFDCId` int NOT NULL,
+    CONSTRAINT `PK_Regs0110EFDC` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Regs0110EFDC_Regs0000EFDC_Reg0000EFDCId` FOREIGN KEY (`Reg0000EFDCId`) REFERENCES `Regs0000EFDC` (`Id`) ON DELETE CASCADE
+);
+
+CREATE TABLE `Regs0120EFDC` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Reg` longtext CHARACTER SET utf8mb4 NULL,
+    `MesRefer` datetime(6) NOT NULL,
+    `InfoCompl` int NOT NULL,
+    `Reg0000EFDCId` int NOT NULL,
+    CONSTRAINT `PK_Regs0120EFDC` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Regs0120EFDC_Regs0000EFDC_Reg0000EFDCId` FOREIGN KEY (`Reg0000EFDCId`) REFERENCES `Regs0000EFDC` (`Id`) ON DELETE CASCADE
+);
+
+CREATE TABLE `Regs0140EFDC` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Reg` longtext CHARACTER SET utf8mb4 NULL,
+    `CodEstab` longtext CHARACTER SET utf8mb4 NULL,
+    `Nome` longtext CHARACTER SET utf8mb4 NULL,
+    `CNPJ` int NOT NULL,
+    `UF` longtext CHARACTER SET utf8mb4 NULL,
+    `IE` longtext CHARACTER SET utf8mb4 NULL,
+    `MunicipioId` int NOT NULL,
+    `IM` longtext CHARACTER SET utf8mb4 NULL,
+    `Suframa` longtext CHARACTER SET utf8mb4 NULL,
+    `Reg0000EFDCId` int NOT NULL,
+    CONSTRAINT `PK_Regs0140EFDC` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Regs0140EFDC_Municipios_MunicipioId` FOREIGN KEY (`MunicipioId`) REFERENCES `Municipios` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_Regs0140EFDC_Regs0000EFDC_Reg0000EFDCId` FOREIGN KEY (`Reg0000EFDCId`) REFERENCES `Regs0000EFDC` (`Id`) ON DELETE CASCADE
+);
+
+CREATE TABLE `Regs0500EFDC` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Reg` longtext CHARACTER SET utf8mb4 NULL,
+    `DtAlteracao` datetime(6) NOT NULL,
+    `CodNatCC` int NOT NULL,
+    `IndCTA` varchar(1) CHARACTER SET utf8mb4 NOT NULL,
+    `Nivel` int NOT NULL,
+    `CodCTA` longtext CHARACTER SET utf8mb4 NULL,
+    `NomeCTA` longtext CHARACTER SET utf8mb4 NULL,
+    `CodCTARef` longtext CHARACTER SET utf8mb4 NULL,
+    `CNPJEstab` int NOT NULL,
+    `Reg0000EFDCId` int NOT NULL,
+    CONSTRAINT `PK_Regs0500EFDC` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Regs0500EFDC_Regs0000EFDC_Reg0000EFDCId` FOREIGN KEY (`Reg0000EFDCId`) REFERENCES `Regs0000EFDC` (`Id`) ON DELETE CASCADE
+);
+
+CREATE TABLE `Regs0600EFDC` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Reg` longtext CHARACTER SET utf8mb4 NULL,
+    `DtAlteracao` datetime(6) NOT NULL,
+    `CodCCusto` longtext CHARACTER SET utf8mb4 NULL,
+    `NomeCCusto` longtext CHARACTER SET utf8mb4 NULL,
+    `Reg0000EFDCId` int NOT NULL,
+    CONSTRAINT `PK_Regs0600EFDC` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Regs0600EFDC_Regs0000EFDC_Reg0000EFDCId` FOREIGN KEY (`Reg0000EFDCId`) REFERENCES `Regs0000EFDC` (`Id`) ON DELETE CASCADE
+);
+
+CREATE INDEX `IX_Regs0100EFDC_MunicipioId` ON `Regs0100EFDC` (`MunicipioId`);
+
+CREATE INDEX `IX_Regs0100EFDC_Reg0000EFDCId` ON `Regs0100EFDC` (`Reg0000EFDCId`);
+
+CREATE UNIQUE INDEX `IX_Regs0110EFDC_Reg0000EFDCId` ON `Regs0110EFDC` (`Reg0000EFDCId`);
+
+CREATE INDEX `IX_Regs0120EFDC_Reg0000EFDCId` ON `Regs0120EFDC` (`Reg0000EFDCId`);
+
+CREATE INDEX `IX_Regs0140EFDC_MunicipioId` ON `Regs0140EFDC` (`MunicipioId`);
+
+CREATE INDEX `IX_Regs0140EFDC_Reg0000EFDCId` ON `Regs0140EFDC` (`Reg0000EFDCId`);
+
+CREATE INDEX `IX_Regs0500EFDC_Reg0000EFDCId` ON `Regs0500EFDC` (`Reg0000EFDCId`);
+
+CREATE INDEX `IX_Regs0600EFDC_Reg0000EFDCId` ON `Regs0600EFDC` (`Reg0000EFDCId`);
+
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20200202235523_AdicionandoReg0100ah0600', '3.1.0');
+

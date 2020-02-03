@@ -21,6 +21,11 @@ namespace lab.Infra.Data.Config.Bloco0
             builder.HasOne(_0000 => _0000.Reg0001EFDC);
             builder.HasMany(_0000 => _0000.Regs0035EFDC).WithOne(_0035 => _0035.Reg0000EFDC);
             builder.HasOne(_0000 => _0000.PessoaJuridica).WithMany(pj => pj.Regs0000EFDC);
+            builder.HasOne(_0000 => _0000.Regs0110EFDC);
+            builder.HasMany(_0000 => _0000.Regs0120EFDC).WithOne(_0120 => _0120.Reg0000EFDC);
+            builder.HasMany(_0000 => _0000.Regs0140EFDC).WithOne(_0140 => _0140.Reg0000EFDC);
+            builder.HasMany(_0000 => _0000.Regs0500EFDC).WithOne(_0500 => _0500.Reg0000EFDC);
+            builder.HasMany(_0000 => _0000.Regs0600EFDC).WithOne(_0600 => _0600.Reg0000EFDC);
         }
     }
 }

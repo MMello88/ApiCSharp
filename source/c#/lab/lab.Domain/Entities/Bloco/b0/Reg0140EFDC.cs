@@ -15,7 +15,7 @@ namespace lab.Domain.Entities.Bloco.b0
         public string UF { get; set; }
         public string IE { get; set; }
         public int MunicipioId { get; set; }
-        public Municipio Municipio { get; set; }
+        public virtual Municipio Municipio { get; set; }
         public string IM { get; set; }
         public string Suframa { get; set; }
         public int Reg0000EFDCId { get; set; }

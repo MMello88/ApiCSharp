@@ -22,6 +22,12 @@ namespace lab.Infra.Data.Context
         DbSet<Reg0000EFDC> Regs0000EFDC { get; set; }
         DbSet<Reg0001EFDC> Regs0001EFDC { get; set; }
         DbSet<Reg0035EFDC> Regs0035EFDC { get; set; }
+        DbSet<Reg0100EFDC> Regs0100EFDC { get; set; }
+        DbSet<Reg0110EFDC> Regs0110EFDC { get; set; }
+        DbSet<Reg0120EFDC> Regs0120EFDC { get; set; }
+        DbSet<Reg0140EFDC> Regs0140EFDC { get; set; }
+        DbSet<Reg0500EFDC> Regs0500EFDC { get; set; }
+        DbSet<Reg0600EFDC> Regs0600EFDC { get; set; }
 
 
         public labContext(DbContextOptions options) : base(options)
@@ -72,7 +78,7 @@ namespace lab.Infra.Data.Context
             
             modelBuilder.ApplyConfiguration(new Reg0000EFDCConfiguration());
             modelBuilder.ApplyConfiguration(new Reg0001EFDCConfiguration());
-            modelBuilder.ApplyConfiguration(new Reg0035EFDCConfiguration());
+            modelBuilder.ApplyConfiguration(new Reg0100EFDCConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }
