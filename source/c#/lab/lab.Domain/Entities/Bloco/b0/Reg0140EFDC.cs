@@ -1,7 +1,4 @@
 ﻿using lab.Domain.Entities.Cadastro.Auxiliar;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace lab.Domain.Entities.Bloco.b0
 {

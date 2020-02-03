@@ -15,7 +15,7 @@ namespace lab.Infra.Data.Config.Bloco0
             builder.Property(_0140 => _0140.CNPJ).HasMaxLength(14).IsRequired();
             builder.Property(_0140 => _0140.UF).HasMaxLength(2).IsRequired();
             builder.Property(_0140 => _0140.IE).HasMaxLength(14);
-            builder.Property(_0140 => _0140.Municipio).IsRequired();
+            builder.Property(_0140 => _0140.MunicipioId).IsRequired();
             builder.Property(_0140 => _0140.IM).HasMaxLength(255);
             builder.Property(_0140 => _0140.Suframa).HasMaxLength(9);
         }
