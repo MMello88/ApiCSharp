@@ -17,5 +17,6 @@ namespace lab.Domain.Entities.Bloco.b0
         public string Suframa { get; set; }
         public int Reg0000EFDCId { get; set; }
         public virtual Reg0000EFDC Reg0000EFDC { get; set; }
+        public virtual Reg0145EFDC Reg0145EFDC { get; set; }
     }
 }
