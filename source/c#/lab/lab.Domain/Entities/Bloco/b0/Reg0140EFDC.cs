@@ -18,6 +18,8 @@ namespace lab.Domain.Entities.Bloco.b0
         public string Suframa { get; set; }
         public DateTime DtIni { get; set; }
         public DateTime DtFin { get; set; }
+        public virtual PessoaJuridica PessoaJuridica { get; set; 
+        public virtual User User { get; set; }
         public virtual Reg0145EFDC Reg0145EFDC { get; set; }
     }
 }

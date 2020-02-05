@@ -12,6 +12,8 @@ namespace lab.Infra.Data.Config.Bloco0
             builder.Property(_0120 => _0120.Reg).HasMaxLength(4).HasDefaultValue("0120").IsRequired();
             builder.Property(_0120 => _0120.MesRefer).IsRequired();
             builder.Property(_0120 => _0120.InfoCompl).IsRequired();
+            builder.HasOne(_0120 => _0120.PessoaJuridica);
+            builder.HasOne(_0120 => _0120.User);
         }
     }
 }

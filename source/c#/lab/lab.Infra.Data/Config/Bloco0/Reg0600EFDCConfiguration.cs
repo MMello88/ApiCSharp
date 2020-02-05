@@ -13,6 +13,8 @@ namespace lab.Infra.Data.Config.Bloco0
             builder.Property(_0600 => _0600.DtAlteracao).IsRequired();
             builder.Property(_0600 => _0600.CodCCusto).HasMaxLength(255).IsRequired();
             builder.Property(_0600 => _0600.NomeCCusto).HasMaxLength(60).IsRequired();
+            builder.HasOne(_0600 => _0600.PessoaJuridica);
+            builder.HasOne(_0600 => _0600.User);
         }
     }
 }

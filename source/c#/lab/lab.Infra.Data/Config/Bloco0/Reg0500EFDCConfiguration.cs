@@ -18,6 +18,8 @@ namespace lab.Infra.Data.Config.Bloco0
             builder.Property(_0500 => _0500.NomeCTA).HasMaxLength(60).IsRequired();
             builder.Property(_0500 => _0500.CodCTARef).HasMaxLength(60);
             builder.Property(_0500 => _0500.CNPJEstab).HasMaxLength(14);
+            builder.HasOne(_0500 => _0500.PessoaJuridica);
+            builder.HasOne(_0500 => _0500.User);
         }
     }
 }

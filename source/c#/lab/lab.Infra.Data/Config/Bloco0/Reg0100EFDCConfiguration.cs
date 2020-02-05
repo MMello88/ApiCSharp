@@ -22,6 +22,8 @@ namespace lab.Infra.Data.Config.Bloco0
             builder.Property(_0100 => _0100.Fone).HasMaxLength(11);
             builder.Property(_0100 => _0100.Fax).HasMaxLength(11);
             builder.Property(_0100 => _0100.Email).HasMaxLength(255);
+            builder.HasOne(_0100 => _0100.PessoaJuridica);
+            builder.HasOne(_0100 => _0100.User);
         }
     }
 }

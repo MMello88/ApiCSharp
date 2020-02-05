@@ -23,5 +23,7 @@ namespace lab.Domain.Entities.Bloco.b0
         public virtual Municipio Municipio { get; set; }
         public DateTime DtIni { get; set; }
         public DateTime DtFin { get; set; }
+        public virtual PessoaJuridica PessoaJuridica { get; set; }
+        public virtual User User { get; set; }
     }
 }

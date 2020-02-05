@@ -20,7 +20,6 @@ namespace lab.Domain.Entities.Bloco.b0
         public IndicadorNaturezaPessoaJuridicaEnum IND_NAT_PJ { get; set; }
         public IndicadorTipoAtividadePreponderanteEnum IND_ATIV { get; set; }
         public virtual PessoaJuridica PessoaJuridica { get; set; }
-        public int UserId { get; set; }
         public virtual User User { get; set; }
         public virtual Reg0001EFDC Reg0001EFDC { get; set; }
         public virtual Reg0110EFDC Regs0110EFDC { get; set; }
