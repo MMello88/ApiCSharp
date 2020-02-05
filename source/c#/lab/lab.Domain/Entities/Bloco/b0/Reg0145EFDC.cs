@@ -1,6 +1,4 @@
-﻿using lab.Domain.Entities.Cadastro.Auxiliar;
-
-namespace lab.Domain.Entities.Bloco.b0
+﻿namespace lab.Domain.Entities.Bloco.b0
 {
     public class Reg0145EFDC
     {

@@ -1,7 +1,5 @@
 ﻿using lab.Domain.Entities.Enums.Indicadores;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace lab.Domain.Entities.Bloco.b0
 {
@@ -17,7 +15,7 @@ namespace lab.Domain.Entities.Bloco.b0
         public string NomeCTA { get; set; }
         public string CodCTARef { get; set; }
         public int CNPJEstab { get; set; }
-        public int Reg0000EFDCId { get; set; }
-        public virtual Reg0000EFDC Reg0000EFDC { get; set; }
+        public DateTime DtIni { get; set; }
+        public DateTime DtFin { get; set; }
     }
 }

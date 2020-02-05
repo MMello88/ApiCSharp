@@ -1,4 +1,6 @@
-﻿namespace lab.Domain.Entities.Bloco.b0
+﻿using System;
+
+namespace lab.Domain.Entities.Bloco.b0
 {
     public class Reg0110EFDC
     {
@@ -8,8 +10,8 @@
         public int IndAproCred { get; set; }
         public int CodTipoCont { get; set; }
         public int IndRegCum { get; set; }
-        public int Reg0000EFDCId { get; set; }
-        public virtual Reg0000EFDC Reg0000EFDC { get; set; }
+        public DateTime DtIni { get; set; }
+        public DateTime DtFin { get; set; }
         public virtual Reg0111EFDC Reg0111EFDC { get; set; }
     }
 }

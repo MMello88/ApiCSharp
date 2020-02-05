@@ -9,7 +9,7 @@ namespace lab.Infra.Data.Config.Bloco0
         public void Configure(EntityTypeBuilder<Reg0001EFDC> builder)
         {
             builder.HasKey(_0000 => _0000.Id);
-            builder.Property(_0000 => _0000.Reg).HasMaxLength(4).HasDefaultValue("0000").IsRequired();
+            builder.Property(_0000 => _0000.Reg).HasMaxLength(4).HasDefaultValue("0001").IsRequired();
             builder.Property(_0000 => _0000.IndicadorMovimento).HasMaxLength(1).IsRequired();
         }
     }

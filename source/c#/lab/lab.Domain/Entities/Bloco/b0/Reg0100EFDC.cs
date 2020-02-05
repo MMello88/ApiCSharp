@@ -1,4 +1,5 @@
 ﻿using lab.Domain.Entities.Cadastro.Auxiliar;
+using System;
 
 namespace lab.Domain.Entities.Bloco.b0
 {
@@ -20,7 +21,7 @@ namespace lab.Domain.Entities.Bloco.b0
         public string Email { get; set; }
         public int MunicipioId { get; set; }
         public virtual Municipio Municipio { get; set; }
-        public int Reg0000EFDCId { get; set; }
-        public virtual Reg0000EFDC Reg0000EFDC { get; set; }
+        public DateTime DtIni { get; set; }
+        public DateTime DtFin { get; set; }
     }
 }

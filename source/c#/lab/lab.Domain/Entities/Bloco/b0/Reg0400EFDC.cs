@@ -1,4 +1,4 @@
-﻿using lab.Domain.Entities.Cadastro.Auxiliar;
+﻿using System;
 
 namespace lab.Domain.Entities.Bloco.b0
 {
@@ -8,7 +8,7 @@ namespace lab.Domain.Entities.Bloco.b0
         public string Reg { get; set; }
         public string CodNat { get; set; }
         public string DescricaoNat { get; set; }
-        public int Reg0140EFDCId { get; set; }
-        public virtual Reg0140EFDC Reg0140EFDC { get; set; }
+        public DateTime DtIni { get; set; }
+        public DateTime DtFin { get; set; }
     }
 }

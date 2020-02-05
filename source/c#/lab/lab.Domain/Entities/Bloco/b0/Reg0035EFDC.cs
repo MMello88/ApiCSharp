@@ -1,5 +1,6 @@
 ﻿
 using lab.Domain.Entities.Registro;
+using System;
 
 namespace lab.Domain.Entities.Bloco.b0
 {
@@ -10,8 +11,8 @@ namespace lab.Domain.Entities.Bloco.b0
         public int CodSCP { get; set; }
         public string DescSCP { get; set; }
         public string InfoCompl { get; set; }
-        public int Reg0000EFDCId { get; set; }
-        public virtual Reg0000EFDC Reg0000EFDC { get; set; }
+        public DateTime DtIni { get; set; }
+        public DateTime DtFin { get; set; }
         public int PessoaJuridicaId { get; set; }
         public virtual PessoaJuridica PessoaJuridica { get; set; }
         public int UserId { get; set; }

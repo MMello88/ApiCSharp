@@ -23,12 +23,6 @@ namespace lab.Domain.Entities.Bloco.b0
         public int UserId { get; set; }
         public virtual User User { get; set; }
         public virtual Reg0001EFDC Reg0001EFDC { get; set; }
-        public virtual ICollection<Reg0035EFDC> Regs0035EFDC { get; set; }
-        public virtual ICollection<Reg0100EFDC> Regs0100EFDC { get; set; }
         public virtual Reg0110EFDC Regs0110EFDC { get; set; }
-        public virtual ICollection<Reg0120EFDC> Regs0120EFDC { get; set; }
-        public virtual ICollection<Reg0140EFDC> Regs0140EFDC { get; set; }
-        public virtual ICollection<Reg0500EFDC> Regs0500EFDC { get; set; }
-        public virtual ICollection<Reg0600EFDC> Regs0600EFDC { get; set; }
     }
 }

@@ -11,7 +11,7 @@ namespace lab.Domain.Entities.Bloco.b0
         public string Reg { get; set; }
         public DateTime MesRefer { get; set; }
         public InfoComplementar InfoCompl { get; set; }
-        public int Reg0000EFDCId { get; set; }
-        public virtual Reg0000EFDC Reg0000EFDC { get; set; }
+        public DateTime DtIni { get; set; }
+        public DateTime DtFin { get; set; }
     }
 }

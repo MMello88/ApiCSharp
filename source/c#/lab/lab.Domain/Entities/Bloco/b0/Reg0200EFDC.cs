@@ -1,5 +1,5 @@
-﻿using lab.Domain.Entities.Cadastro.Auxiliar;
-using lab.Domain.Entities.Enums.Indicadores;
+﻿using lab.Domain.Entities.Enums.Indicadores;
+using System;
 
 namespace lab.Domain.Entities.Bloco.b0
 {
@@ -18,7 +18,7 @@ namespace lab.Domain.Entities.Bloco.b0
         public int CodGen { get; set; }
         public int CodLst { get; set; }
         public int AliqIcms { get; set; }
-        public int Reg0140EFDCId { get; set; }
-        public virtual Reg0140EFDC Reg0140EFDC { get; set; }
+        public DateTime DtIni { get; set; }
+        public DateTime DtFin { get; set; }
     }
 }
