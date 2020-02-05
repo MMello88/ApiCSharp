@@ -14,6 +14,7 @@ namespace lab.Infra.Data.Config.Bloco0
             builder.Property(_0110 => _0110.IndAproCred).HasMaxLength(1);
             builder.Property(_0110 => _0110.CodTipoCont).HasMaxLength(1);
             builder.Property(_0110 => _0110.IndRegCum).HasMaxLength(1);
+            builder.Property(_0110 => _0110.DtIni).IsRequired();
             builder.HasOne(_0110 => _0110.Reg0111EFDC);
             builder.HasOne(_0110 => _0110.PessoaJuridica);
             builder.HasOne(_0110 => _0110.User);

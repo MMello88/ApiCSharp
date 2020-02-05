@@ -18,6 +18,7 @@ namespace lab.Infra.Data.Config.Bloco0
             builder.Property(_0140 => _0140.MunicipioId).IsRequired();
             builder.Property(_0140 => _0140.IM).HasMaxLength(255);
             builder.Property(_0140 => _0140.Suframa).HasMaxLength(9);
+            builder.Property(_0140 => _0140.DtIni).IsRequired();
             builder.HasOne(_0140 => _0140.PessoaJuridica);
             builder.HasOne(_0140 => _0140.User);
         }

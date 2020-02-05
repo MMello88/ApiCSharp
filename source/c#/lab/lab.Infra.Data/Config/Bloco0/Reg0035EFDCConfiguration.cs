@@ -13,6 +13,7 @@ namespace lab.Infra.Data.Config.Bloco0
             builder.Property(_0035 => _0035.CodSCP).HasMaxLength(14).IsRequired();
             builder.Property(_0035 => _0035.DescSCP).HasMaxLength(255).IsRequired();
             builder.Property(_0035 => _0035.InfoCompl).HasMaxLength(255).IsRequired();
+            builder.Property(_0035 => _0035.DtIni).IsRequired();
             builder.HasOne(_0035 => _0035.PessoaJuridica);
             builder.HasOne(_0035 => _0035.User);
         }
