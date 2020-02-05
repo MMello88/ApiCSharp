@@ -30,7 +30,6 @@ namespace lab.Infra.Data.Config
             builder.Property(pj => pj.NomeContato).HasMaxLength(150);
             builder.Property(pj => pj.WebSite).HasMaxLength(200);
             builder.Property(pj => pj.DmContribuicao).HasDefaultValue(ContribuicaoEnum.Nao).IsRequired();
-            builder.HasMany(pj => pj.Regs0000EFDC).WithOne(_0000 => _0000.PessoaJuridica);
         }
     }
 }

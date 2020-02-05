@@ -19,7 +19,6 @@ namespace lab.Infra.Data.Config.Bloco0
             builder.Property(_0000 => _0000.IND_ATIV).HasMaxLength(1).IsRequired();
             builder.HasOne(_0000 => _0000.User);
             builder.HasOne(_0000 => _0000.Reg0001EFDC);
-            builder.HasOne(_0000 => _0000.PessoaJuridica).WithMany(pj => pj.Regs0000EFDC);
             builder.HasOne(_0000 => _0000.Regs0110EFDC);
         }
     }

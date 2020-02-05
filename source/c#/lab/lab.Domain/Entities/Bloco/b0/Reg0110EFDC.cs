@@ -1,4 +1,5 @@
-﻿using System;
+﻿using lab.Domain.Entities.Registro;
+using System;
 
 namespace lab.Domain.Entities.Bloco.b0
 {

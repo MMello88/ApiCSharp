@@ -32,6 +32,5 @@ namespace lab.Domain.Entities.Registro
         public virtual Municipio Municipio { get; set; }
         public int PessoaFisicaId { get; set; }
         public virtual PessoaFisica PessoaFisica { get; set; }
-        public virtual ICollection<Reg0000EFDC> Regs0000EFDC { get; set; }
     }
 }

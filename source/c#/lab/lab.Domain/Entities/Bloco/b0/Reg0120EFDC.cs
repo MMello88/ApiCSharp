@@ -1,4 +1,5 @@
-﻿using lab.Domain.Entities.Enums.Indicadores;
+﻿using lab.Domain.Entities.Registro;
+using lab.Domain.Entities.Enums.Indicadores;
 using System;
 using System.Collections.Generic;
 using System.Text;

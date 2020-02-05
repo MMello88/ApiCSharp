@@ -1,4 +1,5 @@
-﻿using lab.Domain.Entities.Cadastro.Auxiliar;
+﻿using lab.Domain.Entities.Registro;
+using lab.Domain.Entities.Cadastro.Auxiliar;
 using System;
 
 namespace lab.Domain.Entities.Bloco.b0

@@ -1,4 +1,5 @@
-﻿using lab.Domain.Entities.Bloco.b0;
+﻿using lab.Domain.Entities.Registro;
+using lab.Domain.Entities.Bloco.b0;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

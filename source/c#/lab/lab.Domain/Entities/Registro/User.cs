@@ -18,7 +18,5 @@ namespace lab.Domain.Entities.Registro
         public string Email { get; set; }
         public string Senha { get; set; }
         public virtual ICollection<UsersGrupo> UsersGrupo { get; set; }
-        public virtual Reg0000EFDC Reg0000EFDC { get; set; }
-
     }
 }
