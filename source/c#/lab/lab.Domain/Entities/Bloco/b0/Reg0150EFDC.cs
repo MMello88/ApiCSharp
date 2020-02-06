@@ -10,6 +10,7 @@ namespace lab.Domain.Entities.Bloco.b0
         public string Reg { get; set; }
         public string CodPart { get; set; }
         public string Nome { get; set; }
+        public virtual Pais Pais { get; set; }
         public int CNPJ { get; set; }
         public int CPF { get; set; }
         public string IE { get; set; }

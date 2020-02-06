@@ -10,8 +10,8 @@ namespace lab.Infra.Data.Config.Bloco0
         {
             builder.HasKey(_0450 => _0450.Id);
             builder.Property(_0450 => _0450.Reg).HasMaxLength(4).HasDefaultValue("0450").IsRequired();
-            builder.Property(_0450 => _0450.CodInf).HasMaxLength(60);
-            builder.Property(_0450 => _0450.Txt).HasMaxLength(100).IsRequired();
+            builder.Property(_0450 => _0450.CodInf).HasMaxLength(6).IsRequired();
+            builder.Property(_0450 => _0450.Txt).HasMaxLength(255).IsRequired();
             builder.Property(_0450 => _0450.DtIni).IsRequired();
             builder.HasOne(_0450 => _0450.PessoaJuridica);
             builder.HasOne(_0450 => _0450.User);

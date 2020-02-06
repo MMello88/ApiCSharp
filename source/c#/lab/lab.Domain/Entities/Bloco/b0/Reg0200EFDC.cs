@@ -12,7 +12,7 @@ namespace lab.Domain.Entities.Bloco.b0
         public string DescricaoItem { get; set; }
         public string CodBarra { get; set; }
         public string CodAntItem { get; set; }
-        public string UnidInv { get; set; }
+        public virtual Reg0190EFDC Reg0190EFDC { get; set; }
         public virtual TipoItem TipoItem { get; set; }
         public string CodNcm { get; set; }
         public string ExIpi { get; set; }
