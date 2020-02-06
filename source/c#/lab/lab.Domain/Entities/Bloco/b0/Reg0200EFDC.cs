@@ -23,5 +23,8 @@ namespace lab.Domain.Entities.Bloco.b0
         public DateTime DtFin { get; set; }
         public virtual PessoaJuridica PessoaJuridica { get; set; }
         public virtual User User { get; set; }
+        public virtual Reg0205EFDC Reg0205EFDC { get; set; }
+        public virtual Reg0206EFDC Reg0206EFDC { get; set; }
+        public virtual Reg0208EFDC Reg020EFDC { get; set; }
     }
 }

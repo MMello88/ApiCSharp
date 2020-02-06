@@ -31,6 +31,9 @@ namespace lab.Infra.Data.Context
         DbSet<Reg0150EFDC> Regs0150EFDC { get; set; }
         DbSet<Reg0190EFDC> Regs0190EFDC { get; set; }
         DbSet<Reg0200EFDC> Regs0200EFDC { get; set; }
+        DbSet<Reg0205EFDC> Regs0205EFDC { get; set; }
+        DbSet<Reg0206EFDC> Regs0206EFDC { get; set; }
+        DbSet<Reg0208EFDC> Regs0208EFDC { get; set; }
         DbSet<Reg0400EFDC> Regs0400EFDC { get; set; }
         DbSet<Reg0450EFDC> Regs0450EFDC { get; set; }
         DbSet<Reg0500EFDC> Regs0500EFDC { get; set; }
@@ -94,6 +97,9 @@ namespace lab.Infra.Data.Context
             modelBuilder.ApplyConfiguration(new Reg0150EFDCConfiguration());
             modelBuilder.ApplyConfiguration(new Reg0190EFDCConfiguration());
             modelBuilder.ApplyConfiguration(new Reg0200EFDCConfiguration());
+            modelBuilder.ApplyConfiguration(new Reg0205EFDCConfiguration());
+            modelBuilder.ApplyConfiguration(new Reg0206EFDCConfiguration());
+            modelBuilder.ApplyConfiguration(new Reg0208EFDCConfiguration());
             modelBuilder.ApplyConfiguration(new Reg0400EFDCConfiguration());
             modelBuilder.ApplyConfiguration(new Reg0450EFDCConfiguration());
             modelBuilder.ApplyConfiguration(new Reg0500EFDCConfiguration());
