@@ -10,7 +10,7 @@ namespace lab.Infra.Data.Config.BlocoA
         {
             builder.HasKey(_A110 => _A110.Id);
             builder.Property(_A110 => _A110.Reg).HasMaxLength(4).HasDefaultValue("A110").IsRequired();
-            builder.Property(_A110 => _A110.Reg0450EFDC).IsRequired();
+            builder.HasOne(_A110 => _A110.Reg0450EFDC);
             builder.Property(_A110 => _A110.TxtComplementar).HasMaxLength(255);
 			builder.HasOne(_A110 => _A110.RegA100EFDC).WithMany(_A100 => _A100.RegsA110EFDC);
         }

@@ -4,26 +4,6 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Migrations\20200111184054_TesteInicial.cs" />
-    <Compile Remove="Migrations\20200111184054_TesteInicial.Designer.cs" />
-    <Compile Remove="Migrations\20200116155728_AdicionandoRelacionamentoPJMunicio.cs" />
-    <Compile Remove="Migrations\20200116155728_AdicionandoRelacionamentoPJMunicio.Designer.cs" />
-    <Compile Remove="Migrations\20200116161426_AdicionandoRelacionamentoPJMunicio.cs" />
-    <Compile Remove="Migrations\20200116161426_AdicionandoRelacionamentoPJMunicio.Designer.cs" />
-    <Compile Remove="Migrations\20200116162715_AdicionandoRelacionamentoPJMunicio.cs" />
-    <Compile Remove="Migrations\20200116162715_AdicionandoRelacionamentoPJMunicio.Designer.cs" />
-    <Compile Remove="Migrations\20200121173827_AdicionandoRegitros0000.cs" />
-    <Compile Remove="Migrations\20200121173827_AdicionandoRegitros0000.Designer.cs" />
-    <Compile Remove="Migrations\20200121174224_AdicionandoRegitro0000.cs" />
-    <Compile Remove="Migrations\20200121174224_AdicionandoRegitro0000.Designer.cs" />
-    <Compile Remove="Migrations\20200123022243_AdicionandoRegitroEFDC0000.cs" />
-    <Compile Remove="Migrations\20200123022243_AdicionandoRegitroEFDC0000.Designer.cs" />
-    <Compile Remove="Migrations\20200123023743_AdicionandoUsuarioRegitroEFDC0000.cs" />
-    <Compile Remove="Migrations\20200123023743_AdicionandoUsuarioRegitroEFDC0000.Designer.cs" />
-    <Compile Remove="Migrations\20200123024107_AdicionandoUsuarioRegitroEFDC0000.cs" />
-    <Compile Remove="Migrations\20200123024107_AdicionandoUsuarioRegitroEFDC0000.Designer.cs" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
@@ -39,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Migrations\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
 

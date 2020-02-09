@@ -13,9 +13,9 @@ namespace lab.Domain.Entities.Bloco.bA
         public string DescricaoComplementar { get; set; }
         public decimal VlItem { get; set; }
         public decimal VlDesconto { get; set; }
-        public Ref431 Ref431 { get; set; }
+        public virtual Ref431 Ref431 { get; set; }
         public IndicadorOrigemCredito IndicadorOrigemCredito { get; set; }
-        public Ref433 Ref433 { get; set; }
+        public virtual Ref433 Ref433 { get; set; }
         public decimal VlBcPis { get; set; }
         public decimal VlAliqPis { get; set; }
         public decimal VlPis { get; set; }
