@@ -6,6 +6,8 @@ using lab.Infra.Data.Config.Referencias;
 using lab.Domain.Entities.Cadastro.Referencias;
 using lab.Infra.Data.Config.Bloco0;
 using lab.Domain.Entities.Bloco.b0;
+using lab.Infra.Data.Config.BlocoA;
+using lab.Domain.Entities.Bloco.bA;
 
 namespace lab.Infra.Data.Context
 {
@@ -19,7 +21,7 @@ namespace lab.Infra.Data.Context
         DbSet<GrupoUser> GrupoUsers { get; set; }
         DbSet<UsersGrupo> UsersGrupo { get; set; }
         DbSet<Ref311> Ref311 { get; set; }
-        DbSet<Reg0000EFDC> Regs0000EFDC { get; set; }
+		DbSet<Reg0000EFDC> Regs0000EFDC { get; set; }
         DbSet<Reg0001EFDC> Regs0001EFDC { get; set; }
         DbSet<Reg0035EFDC> Regs0035EFDC { get; set; }
         DbSet<Reg0100EFDC> Regs0100EFDC { get; set; }
@@ -38,6 +40,12 @@ namespace lab.Infra.Data.Context
         DbSet<Reg0450EFDC> Regs0450EFDC { get; set; }
         DbSet<Reg0500EFDC> Regs0500EFDC { get; set; }
         DbSet<Reg0600EFDC> Regs0600EFDC { get; set; }
+		DbSet<RegA001EFDC> RegsA001EFDC { get; set; }
+		DbSet<RegA100EFDC> RegsA100EFDC { get; set; }
+		DbSet<RegA110EFDC> RegsA110EFDC { get; set; }
+		DbSet<RegA111EFDC> RegsA111EFDC { get; set; }
+		DbSet<RegA120EFDC> RegsA120EFDC { get; set; }
+		DbSet<RegA170EFDC> RegsA170EFDC { get; set; }
 
 
         public labContext(DbContextOptions options) : base(options)
@@ -104,6 +112,13 @@ namespace lab.Infra.Data.Context
             modelBuilder.ApplyConfiguration(new Reg0450EFDCConfiguration());
             modelBuilder.ApplyConfiguration(new Reg0500EFDCConfiguration());
             modelBuilder.ApplyConfiguration(new Reg0600EFDCConfiguration());
+			
+			modelBuilder.ApplyConfiguration(new RegA001EFDCConfiguration());
+			modelBuilder.ApplyConfiguration(new RegA100EFDCConfiguration());
+			modelBuilder.ApplyConfiguration(new RegA110EFDCConfiguration());
+			modelBuilder.ApplyConfiguration(new RegA111EFDCConfiguration());
+			modelBuilder.ApplyConfiguration(new RegA120EFDCConfiguration());
+			modelBuilder.ApplyConfiguration(new RegA170EFDCConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }

@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\Bloco\bA\" />
     <Folder Include="Entities\Bloco\bC\" />
     <Folder Include="Entities\Bloco\bD\" />
   </ItemGroup>
