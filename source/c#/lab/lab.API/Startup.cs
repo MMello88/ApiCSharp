@@ -35,6 +35,7 @@ namespace lab.API
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseStatusCodePages();
 
             app.UseRouting();
 
